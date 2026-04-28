@@ -1,5 +1,5 @@
 export default function WhatsAppButton() {
-  const nomorWA = "628123456789"; // Ganti dengan nomor Anda
+  const nomorWA = "62882002259764"; // Ganti dengan nomor Anda
   const pesan = "Halo, saya tertarik dengan unit mobil di website Anda.";
   
   return (

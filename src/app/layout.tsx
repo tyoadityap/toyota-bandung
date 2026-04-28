@@ -4,10 +4,6 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import FloatingWA from "../components/FloatingWA";
 
-// export const metadata = {
-//   title: "Toyota Bandung",
-//   description: "Marketing Sales Dealer Mobil",
-// };
 export const metadata: Metadata = {
   title: "Toyota Bandung - Promo & Unit Ready Stock 2026",
   description: "Dealer resmi Toyota Bandung. Dapatkan promo bunga 0% dan cicilan ringan untuk Rush, Avanza, dan Veloz.",

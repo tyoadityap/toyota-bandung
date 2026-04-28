@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import cars from '../data/cars.json';
+import { createWhatsAppLink, PROMO_INFO } from "../lib/constants";
 
 // Swiper Components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -163,7 +164,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-baseline gap-1 mb-6">
                   <span className="text-sm font-bold text-slate-500">Mulai</span>
-                  <span className="text-2xl font-black text-red-600">
+                  <span className="text-2xl font-black text-slate-600">
                     Rp {(mobil.harga / 1000000).toLocaleString('id-ID')} Jt
                   </span>
                 </div>
@@ -189,11 +190,14 @@ export default function Home() {
       {/* CALL TO ACTION (WHATSAPP) */}
       <section className="bg-red-600 py-16 px-6 rounded-[3rem] max-w-7xl mx-auto mb-20 text-center text-white">
         <h2 className="text-3xl md:text-5xl font-bold mb-6">Punya Pertanyaan Seputar Promo?</h2>
-        <p className="text-red-100 mb-10 text-lg">Hubungi Sales Executive kami sekarang dan dapatkan cashback hingga Rp 20 Juta!</p>
-        <button className="bg-white text-red-600 px-10 py-4 rounded-2xl font-extrabold text-xl hover:bg-slate-100 transition-all shadow-xl">
+        <p className="text-red-100 mb-10 text-lg">Hubungi Sales Executive kami sekarang dan dapatkan cashback hingga {PROMO_INFO.cashback}!!</p>
+        <a 
+          href={createWhatsAppLink(`Halo, saya tertarik dengan promo cashback ${PROMO_INFO.cashback}`)}
+          target="_blank" 
+          className="bg-white text-red-600 px-10 py-4 rounded-2xl font-extrabold text-xl hover:bg-slate-100 transition-all shadow-xl">
           Klik Chat WhatsApp
-        </button>
-      </section>
+        </a>
+    </section>
 
       {/* TESTIMONIAL SECTION - PREMIUM LAYOUT */}
         <section className="py-24 bg-slate-50 overflow-hidden">
@@ -279,8 +283,8 @@ const testimonials = [
     pesan: "Pelayanan sangat cepat! Proses pengajuan kredit Toyota Rush saya hanya butuh 3 hari sampai unit dikirim ke rumah. Salesnya sangat membantu.",
     fotoProfil: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200", // Foto orangnya
     // FOTO SERAH TERIMA (Kunci Visual)
-    fotoSerahTerima: "https://images.unsplash.com/photo-1519311965067-36d3e5f33d39?q=80&w=800", 
-    unit: "Toyota Rush GR Sport"
+    fotoSerahTerima: "/images/kiki voxy.png", 
+    unit: "Toyota Voxy 2.0"
   },
   {
     id: 2,
@@ -288,8 +292,8 @@ const testimonials = [
     pekerjaan: "Ibu Rumah Tangga",
     pesan: "Dapat promo bunga 0% untuk Avanza baru. Penjelasan sales sangat detail dan jujur mengenai simulasi kreditnya. Sangat puas!",
     fotoProfil: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200",
-    fotoSerahTerima: "https://images.unsplash.com/photo-1583121274602-3e2820c69888?q=80&w=800",
-    unit: "Toyota Avanza"
+    fotoSerahTerima: "/images/kiki raize g.png",
+    unit: "Toyota Raize G CVT 1.2"
   },
   {
     id: 3,
@@ -297,7 +301,25 @@ const testimonials = [
     pekerjaan: "Dokter",
     pesan: "Showroom-nya nyaman dan pilihan unit Toyota-nya lengkap. Terima kasih atas hadiah langsung aksesorisnya saat serah terima Fortuner saya.",
     fotoProfil: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=200",
-    fotoSerahTerima: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=800",
-    unit: "Toyota Fortuner"
+    fotoSerahTerima: "/images/kiki fortuner gr.png",
+    unit: "Toyota Fortuner GR 4X2"
+  },
+  {
+    id: 4,
+    nama: "dr. Andi Wijaya",
+    pekerjaan: "Dokter",
+    pesan: "Showroom-nya nyaman dan pilihan unit Toyota-nya lengkap. Terima kasih atas hadiah langsung aksesorisnya saat serah terima Fortuner saya.",
+    fotoProfil: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=200",
+    fotoSerahTerima: "/images/kiki avanza.png",
+    unit: "Toyota Avanza E M/T"
+  },
+  {
+    id: 5,
+    nama: "dr. Andi Wijaya",
+    pekerjaan: "Dokter",
+    pesan: "Showroom-nya nyaman dan pilihan unit Toyota-nya lengkap. Terima kasih atas hadiah langsung aksesorisnya saat serah terima Fortuner saya.",
+    fotoProfil: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=200",
+    fotoSerahTerima: "/images/kiki agya g.png",
+    unit: "Toyota Agya G CVT"
   }
 ];

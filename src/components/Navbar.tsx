@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { createWhatsAppLink, PROMO_INFO } from "../lib/constants";
 
 export default function Navbar() {
   return (
@@ -24,12 +25,14 @@ export default function Navbar() {
             <Link href="/kontak" className="text-sm font-semibold text-slate-600 hover:text-red-600 transition">
               Kontak & Promo
             </Link>
-            <Link 
-              href="https://wa.me/628123456789" 
-              className="bg-red-600 text-white px-5 py-2.5 rounded-full text-sm font-bold hover:bg-red-700 transition shadow-md"
+            <a 
+              href={createWhatsAppLink("Halo, saya ingin tanya promo Toyota terbaru")} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-red-600 text-white px-5 py-2.5 rounded-full text-sm font-bold hover:bg-red-700 transition shadow-md inline-block"
             >
               Hubungi Sales
-            </Link>
+            </a>
           </div>
 
           {/* Mobile Menu Icon (Sederhana dulu) */}

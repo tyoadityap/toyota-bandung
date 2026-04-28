@@ -5,6 +5,7 @@ import { useState } from 'react'; // Tambahkan useState
 import Link from 'next/link';
 import Image from 'next/image';
 import carsData from '../../../data/cars.json';
+import { createWhatsAppLink, PROMO_INFO } from "../../../lib/constants";
 
 export default function DetailMobil() {
   const params = useParams();
@@ -90,13 +91,14 @@ export default function DetailMobil() {
 
           {/* Tombol Aksi */}
           <div className="flex flex-col sm:flex-row gap-4 mt-10">
-            <Link 
-              href={`https://wa.me/628123456789?text=Halo Sales Toyota, saya ingin tanya detail ${mobil.nama}`}
-              target="_blank"
+            <a 
+              href={createWhatsAppLink("Halo, saya ingin tanya promo Toyota terbaru")} 
+              target="_blank" 
+              rel="noopener noreferrer"
               className="flex-[2] bg-[#eb0a1e] text-white text-center py-4 rounded-2xl font-bold text-lg hover:bg-red-700 shadow-lg shadow-red-200 transition"
             >
               Hubungi Sales Sekarang
-            </Link>
+            </a>
             <button className="flex-1 bg-slate-100 text-slate-900 py-4 rounded-2xl font-bold hover:bg-slate-200 transition">
               Brosur PDF
             </button>

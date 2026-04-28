@@ -3,7 +3,7 @@
 import Image from 'next/image';
 
 export default function FloatingWA() {
-  const nomorWA = "628123456789"; // Ganti dengan nomor WhatsApp Anda
+  const nomorWA = "62882002259764"; // Ganti dengan nomor WhatsApp Anda
   const pesan = "Halo Sales Toyota, saya ingin bertanya tentang promo unit terbaru.";
   
   return (
