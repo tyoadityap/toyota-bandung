@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="bg-red-900 text-white pt-20 pb-10 px-6">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 border-b border-white-800 pb-12">
         <div className="col-span-1 md:col-span-2">
-          <h2 className="text-2xl font-bold mb-6 text-red-500">DEALER<span className="text-white">AUTO</span></h2>
+          <h2 className="text-2xl font-bold mb-6 text-red-500">TOYOYA<span className="text-white">BANDUNG</span></h2>
           <p className="text-slate-400 max-w-sm mb-6">
             Solusi kendaraan impian keluarga Anda. Kami menyediakan unit ready stock dengan layanan purna jual terbaik di kelasnya.
           </p>
