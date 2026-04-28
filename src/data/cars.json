@@ -1,0 +1,45 @@
+[
+    {
+    "id": "toyota-rush-gr",
+    "nama": "Toyota Rush GR Sport",
+    "tipe": "SUV",
+    "harga": 302200000,
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/car_variant_image/tXJBFxo7texeRLKe2YkFBi2ZEVg8XhOIp3y01sjq.png",
+    "galeri": [
+        "https://d1g6w7sntckt92.cloudfront.net/public/images/car_variant_image/tXJBFxo7texeRLKe2YkFBi2ZEVg8XhOIp3y01sjq.png",
+        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/s773jO8toWJ6eU7ytb8utI4r3tLQpW9XfzeaVnoz.jpg",
+        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/PFSSDKtaDSoW4O6WQo9gETqntv3RRVUpa0OWKXFa.jpg",
+        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/IRlL6VsX8mHq9EgYaEx4w1WIsxJKQnTHAUOtOhbX.jpg",
+        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/s3sm4I8vC76DdfOBAnph58uTfAy9nRKId9jyiBMR.jpg"
+    ],
+    "deskripsi": "SUV keluarga paling tangguh dengan tampilan sporty khas Gazoo Racing.",
+    "spesifikasi": ["1.5L Dual VVT-i", "7 Seater", "6 SRS Airbags"]
+    },
+  {
+    "id": "toyota-avanza",
+    "nama": "All New Avanza",
+    "tipe": "MPV",
+    "harga": 237100000,
+    "gambar": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?q=80&w=800",
+    "deskripsi": "Mobil sejuta umat dengan kenyamanan ekstra dan transmisi CVT yang halus.",
+    "spesifikasi": ["1.3L / 1.5L Engine", "7 Seater", "FF Layout", "Toyota Safety Sense"]
+  },
+  {
+    "id": "toyota-veloz",
+    "nama": "All New Veloz",
+    "tipe": "MPV",
+    "harga": 290700000,
+    "gambar": "https://images.unsplash.com/photo-1619767886558-efdc259cde1a?q=80&w=800",
+    "deskripsi": "MPV premium dengan fitur teknologi tercanggih di kelasnya untuk kenyamanan keluarga Anda.",
+    "spesifikasi": ["Wireless Charger", "Electric Parking Brake", "Full Digital Meter", "T-Intouch"]
+  },
+  {
+    "id": "toyota-fortuner-gr",
+    "nama": "New Fortuner GR Sport",
+    "tipe": "SUV",
+    "harga": 564200000,
+    "gambar": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=800",
+    "deskripsi": "Simbol kekuatan dan kemapanan. Tangguh di segala medan dengan mesin diesel berperforma tinggi.",
+    "spesifikasi": ["2.8L Diesel Engine", "4x4 Drive System", "Power Back Door", "New GR Part"]
+  }
+]

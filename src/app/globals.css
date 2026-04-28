@@ -1,0 +1,29 @@
+/* @import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-mono-serif, Menlo, Monaco, Consolas, monospace;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body {
+  background-color: #f8fafc; 
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}  */
+
+@import "tailwindcss";
+
+@theme {
+  --color-toyota-red: #eb0a1e;
+  --color-toyota-gray: #58595b;
+}
+
+body {
+  background-color: #ffffff; /* Toyota suka kesan bersih/putih */
+  color: #1a1a1a;
+}
