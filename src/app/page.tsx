@@ -53,69 +53,95 @@ export default function Home() {
     <div className="bg-white text-slate-900 font-sans">
       
       {/* HERO SECTION WITH CAROUSEL */}
-      <section className="relative h-[85vh] bg-slate-900 overflow-hidden">
-        <Swiper
-          modules={[Autoplay, Pagination, EffectFade]}
-          effect="fade"
-          autoplay={{ delay: 5000, disableOnInteraction: false }}
-          pagination={{ clickable: true }}
-          loop={true}
-          className="h-full w-full"
-        >
-          {slides.map((slide, index) => (
-            <SwiperSlide key={index}>
-              <div className="relative h-full w-full flex items-center justify-center">
-                {/* Background Image */}
-                <div 
-                  className="absolute inset-0 bg-cover bg-center transition-transform duration-[5000ms] scale-110"
-                  style={{ backgroundImage: `url('${slide.image}')` }}
-                />
-                {/* Overlay Gelap agar Teks Terbaca */}
-                <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent z-10" />
+      {/* 1. Responsif Height: h-[70vh] di mobile, h-[85vh] di desktop */}
+<section className="relative h-[70vh] md:h-[85vh] bg-slate-900 overflow-hidden">
+  <Swiper
+    modules={[Autoplay, Pagination, EffectFade]}
+    effect="fade"
+    autoplay={{ delay: 5000, disableOnInteraction: false }}
+    pagination={{ clickable: true }}
+    loop={true}
+    className="h-full w-full"
+  >
+    {slides.map((slide, index) => (
+      <SwiperSlide key={index}>
+        <div className="relative h-full w-full flex items-center justify-center">
+          {/* Background Image - bg-center untuk mobile agar mobil tetap di tengah */}
+          <div 
+            className="absolute inset-0 bg-cover bg-center transition-transform duration-[5000ms] scale-110"
+            style={{ backgroundImage: `url('${slide.image}')` }}
+          />
+          
+          {/* Overlay: Di mobile lebih gelap (opacity-90) agar teks putih lebih kontras */}
+          <div className="absolute inset-0 bg-gradient-to-b md:bg-gradient-to-r from-black/90 via-black/40 to-transparent z-10" />
 
-                {/* Content */}
-                <div className="relative z-20 text-center px-6 max-w-4xl">
-                  <span className="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-white uppercase bg-red-600 rounded-full animate-bounce">
-                    Promo Terbatas Mei 2026
-                  </span>
-                  <h1 
-                    className="text-5xl md:text-7xl font-extrabold text-white mb-6 tracking-tight leading-tight"
-                    dangerouslySetInnerHTML={{ __html: slide.title }}
-                  />
-                  <p className="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl mx-auto">
-                    {slide.desc}
-                  </p>
-                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                    <Link href="/mobil" className="px-8 py-4 bg-red-600 text-white rounded-xl font-bold text-lg hover:bg-red-700 transition-all transform hover:scale-105 shadow-xl shadow-red-500/20">
-                      Lihat Koleksi Mobil
-                    </Link>
-                    <Link href="/kontak" className="px-8 py-4 bg-white/10 backdrop-blur-md text-white border border-white/20 rounded-xl font-bold text-lg hover:bg-white/20 transition-all">
-                      Konsultasi Sales
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
+          {/* Content Wrapper */}
+          <div className="relative z-20 text-center px-6 max-w-4xl">
+            {/* Tag Promo: Ukuran lebih kecil di mobile */}
+            <span className="inline-block px-3 py-1 md:px-4 md:py-1.5 mb-4 md:mb-6 text-[10px] md:text-xs font-bold tracking-widest text-white uppercase bg-red-600 rounded-full animate-bounce">
+              Promo Terbatas Mei 2026
+            </span>
 
-        {/* Custom Pagination Style */}
-        <style jsx global>{`
-          .swiper-pagination-bullet {
-            background: white !important;
-            width: 12px;
-            height: 12px;
-            opacity: 0.5;
-          }
-          .swiper-pagination-bullet-active {
-            background: #ef4444 !important;
-            width: 30px;
-            border-radius: 6px;
-            opacity: 1;
-            transition: all 0.3s;
-          }
-        `}</style>
-      </section>
+            {/* Judul: text-3xl di mobile, text-7xl di desktop */}
+            <h1 
+              className="text-3xl md:text-7xl font-extrabold text-white mb-4 md:mb-6 tracking-tight leading-tight"
+              dangerouslySetInnerHTML={{ __html: slide.title }}
+            />
+
+            {/* Deskripsi: text-sm (biar tidak kepanjangan) di mobile, max-w-xs agar rapi */}
+            <p className="text-sm md:text-xl text-slate-300 mb-8 md:mb-10 max-w-xs md:max-w-2xl mx-auto leading-relaxed">
+              {slide.desc}
+            </p>
+
+            {/* Tombol: Stack (tumpuk) di mobile, Row (sejajar) di desktop */}
+            <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center items-center">
+              <Link 
+                href="/mobil" 
+                className="w-full sm:w-auto px-8 py-3.5 md:py-4 bg-red-600 text-white rounded-xl font-bold text-base md:text-lg hover:bg-red-700 transition-all transform hover:scale-105 shadow-xl shadow-red-500/20"
+              >
+                Lihat Koleksi Mobil
+              </Link>
+              <Link 
+                href="/kontak" 
+                className="w-full sm:w-auto px-8 py-3.5 md:py-4 bg-white/10 backdrop-blur-md text-white border border-white/20 rounded-xl font-bold text-base md:text-lg hover:bg-white/20 transition-all"
+              >
+                Konsultasi Sales
+              </Link>
+            </div>
+          </div>
+        </div>
+      </SwiperSlide>
+    ))}
+  </Swiper>
+
+  {/* Custom Pagination Style - Diperkecil sedikit untuk mobile */}
+  <style jsx global>{`
+    .swiper-pagination-bullet {
+      background: white !important;
+      width: 8px;
+      height: 8px;
+      opacity: 0.5;
+    }
+    @media (min-width: 768px) {
+      .swiper-pagination-bullet {
+        width: 12px;
+        height: 12px;
+      }
+    }
+    .swiper-pagination-bullet-active {
+      background: #ef4444 !important;
+      width: 20px;
+      border-radius: 6px;
+      opacity: 1;
+      transition: all 0.3s;
+    }
+    @media (min-width: 768px) {
+      .swiper-pagination-bullet-active {
+        width: 30px;
+      }
+    }
+  `}</style>
+</section>
 
       {/* FEATURED CARS SECTION */}
       <section className="py-24 px-6 max-w-7xl mx-auto">
