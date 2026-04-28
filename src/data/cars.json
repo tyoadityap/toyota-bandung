@@ -20,7 +20,15 @@
     "nama": "All New Avanza",
     "tipe": "MPV",
     "harga": 237100000,
-    "gambar": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?q=80&w=800",
+    "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/car_variant_image/i9xtSSTtQymbTe2bQxWdWRO8BXaaFfs8Ao9NDrlC.png",
+    "galeri": [
+        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/pDujsXic5MS0RtAHcxG3PjyM60qYVjkNboEprNma.jpg",
+        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/xBkuKhqjE1SmD04P6Ca5MuBZOv15uSamLyXg51K6.jpg",
+        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/sie3TQ4l5rxVezwmk2myj1G3TQegxk8KJ5WDva1Z.jpg",
+        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/rMyV1VDwJhqGnA1ovigReqHksyjQq2fghbwP8qzz.jpg",
+        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/ljrjFzadZnICuS07dU0eN8ZIg5rBAfFvMpiD10kL.jpg",
+        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/ljrjFzadZnICuS07dU0eN8ZIg5rBAfFvMpiD10kL.jpg"
+    ],
     "deskripsi": "Mobil sejuta umat dengan kenyamanan ekstra dan transmisi CVT yang halus.",
     "spesifikasi": ["1.3L / 1.5L Engine", "7 Seater", "FF Layout", "Toyota Safety Sense"]
   },
@@ -29,7 +37,15 @@
     "nama": "All New Veloz",
     "tipe": "MPV",
     "harga": 290700000,
-    "gambar": "https://images.unsplash.com/photo-1619767886558-efdc259cde1a?q=80&w=800",
+    "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/car_variant_image/L3Dc2zDVpSZvjcQVUM0IhXB3ZDL4xZXgwDlxH5xP.png",
+    "galeri": [
+        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/Iajd0VGV0a8Dir03sGpnPGaXiGmoTErN4iLM5cbk.jpg",
+        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/fVeP4flez8kzjB9nGTdm7chOB8kd9JOFiFaVZAN2.jpg",
+        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/FhRZknFxBGsKGNuOahOaNnLc2RA65ZRZVarWQ644.jpg",
+        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/oDDWnJ1E9sBM7KESLXq6aFIJs20HKLCh5GhZNt7W.jpg",
+        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/7fqP6c4Kq9gQLhTF5S4HBgi89hGhHgwl6JICQPwt.jpg",
+        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/5EP46akwzK87sjFY39d9AZhYRoenh1rvaIl41jgC.jpg"
+    ],
     "deskripsi": "MPV premium dengan fitur teknologi tercanggih di kelasnya untuk kenyamanan keluarga Anda.",
     "spesifikasi": ["Wireless Charger", "Electric Parking Brake", "Full Digital Meter", "T-Intouch"]
   },
@@ -38,7 +54,15 @@
     "nama": "New Fortuner GR Sport",
     "tipe": "SUV",
     "harga": 564200000,
-    "gambar": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=800",
+    "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/car_variant_image/QJnN3loZz8PmdRzcZaa4X2q1SotO8hRnnECkIlaw.png",
+    "galeri": [
+        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/CCb7jV95QFM9D5KB5D2oS0reZ1JLEIIOZBDTCpQ3.jpg",
+        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/lKXlNGPmVVl6Dk5DDbjCxm07xSOZm9StPWaBIlVN.jpg",
+        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/nP3e4PN3As4JmMmSB5egQHe6s6L7YSEM4YHtM5wp.jpg",
+        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/2i3xQxWsAdpRdafuklTOxwTHy6Lz3ocefMWHZ20N.jpg",
+        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/P8SXu7glsjgrfSCH6cIoBAcaKaSSzYDAdxsZ7h82.jpg",
+        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/PPMZORTHTQfB2ohuMKUvApL7ErzIDpvwPKEI6VFJ.jpg"
+    ],
     "deskripsi": "Simbol kekuatan dan kemapanan. Tangguh di segala medan dengan mesin diesel berperforma tinggi.",
     "spesifikasi": ["2.8L Diesel Engine", "4x4 Drive System", "Power Back Door", "New GR Part"]
   }

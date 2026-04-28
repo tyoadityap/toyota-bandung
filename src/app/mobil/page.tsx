@@ -19,10 +19,10 @@ export default function DaftarMobil() {
   return (
     <div className="bg-slate-50 min-h-screen pb-20">
       {/* Header Halaman */}
-      <div className="bg-slate-900 text-white py-16 px-6 mb-12">
+      <div className="bg-red-900 text-white py-16 px-6 mb-12">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-4xl font-bold mb-4">Katalog Mobil 2026</h1>
-          <p className="text-slate-400">Temukan unit terbaik dengan penawaran harga spesial bulan ini.</p>
+          <p className="text-white-400">Temukan unit terbaik dengan penawaran harga spesial bulan ini.</p>
         </div>
       </div>
 

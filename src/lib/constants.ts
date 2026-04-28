@@ -1,10 +1,10 @@
 // src/lib/constants.ts
 
 export const CONTACT_INFO = {
-  whatsapp: "628123456789", // Hanya angka, awali dengan 62
-  email: "sales@toyotabandung.com",
-  address: "Jl. Raya Otomotif No. 123, Bandung",
-  mapsUrl: "https://goo.gl/maps/xxx",
+  whatsapp: "62882002259764", // Hanya angka, awali dengan 62
+  email: "mrizkyutama3@gmail.com",
+  address: "Jl. Gatot Subroto No.9 , Kota Bandung, Jawa Barat, Indonesia",
+  mapsUrl: "https://maps.app.goo.gl/LZjJLnmVeYhKBYvP9",
 };
 
 export const PROMO_INFO = {
