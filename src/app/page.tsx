@@ -213,17 +213,29 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CALL TO ACTION (WHATSAPP) */}
-      <section className="bg-red-600 py-16 px-6 rounded-[3rem] max-w-7xl mx-auto mb-20 text-center text-white">
-        <h2 className="text-3xl md:text-5xl font-bold mb-6">Punya Pertanyaan Seputar Promo?</h2>
-        <p className="text-red-100 mb-10 text-lg">Hubungi Sales Executive kami sekarang dan dapatkan cashback hingga {PROMO_INFO.cashback}!!</p>
-        <a 
-          href={createWhatsAppLink(`Halo, saya tertarik dengan promo cashback ${PROMO_INFO.cashback}`)}
-          target="_blank" 
-          className="bg-white text-red-600 px-10 py-4 rounded-2xl font-extrabold text-xl hover:bg-slate-100 transition-all shadow-xl">
-          Klik Chat WhatsApp
-        </a>
-    </section>
+    {/* CALL TO ACTION (WHATSAPP) - RESPONSIVE VERSION */}
+          {/* CALL TO ACTION (WHATSAPP) - SLIM MOBILE VERSION */}
+<section className="bg-red-600 py-8 md:py-16 px-4 md:px-6 rounded-[1.5rem] md:rounded-[3rem] max-w-5xl mx-5 md:mx-auto mb-12 md:mb-20 text-center text-white">
+  
+  {/* Judul: text-xl lebih ramping di HP */}
+  <h2 className="text-xl md:text-5xl font-bold mb-3 md:mb-6 leading-snug">
+    Punya Pertanyaan <br className="md:hidden" /> Seputar Promo?
+  </h2>
+  
+  {/* Deskripsi: text-xs/sm agar tidak memenuhi kotak */}
+  <p className="text-red-100 mb-6 md:mb-10 text-xs md:text-lg max-w-[250px] md:max-w-none mx-auto opacity-90">
+    Hubungi Sales Executive kami dan dapatkan cashback hingga {PROMO_INFO.cashback}!!
+  </p>
+  
+  {/* Button: Lebih kecil & proporsional */}
+  <a 
+    href={createWhatsAppLink(`Halo, saya tertarik dengan promo cashback ${PROMO_INFO.cashback}`)}
+    target="_blank" 
+    className="inline-block bg-white text-red-600 px-6 py-3 md:px-10 md:py-4 rounded-xl font-black text-sm md:text-xl hover:bg-slate-100 transition-all shadow-lg active:scale-95"
+  >
+    Chat WhatsApp
+  </a>
+</section>
 
       {/* TESTIMONIAL SECTION - PREMIUM LAYOUT */}
         <section className="py-24 bg-slate-50 overflow-hidden">
