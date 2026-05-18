@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import FloatingWA from "../components/FloatingWA";
 
+
 export const metadata: Metadata = {
   title: "Toyota Bandung - Promo & Unit Ready Stock 2026",
   description: "Dealer resmi Toyota Bandung. Dapatkan promo bunga 0% dan cicilan ringan untuk Rush, Avanza, dan Veloz.",
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="id">
-      <body className="bg-slate-50 text-slate-900 antialiased"> 
+      <body className="bg-slate-50 text-slate-900 antialiased">
         <Navbar />
         {children}
         <FloatingWA />

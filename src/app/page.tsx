@@ -14,7 +14,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 
 export default function Home() {
-    const slides = [
+  const slides = [
     {
       image: "https://d1g6w7sntckt92.cloudfront.net/public/images/banner_images/PKbOClGxJteUtu050bJtkOImmvNJaVioXnGiY0QO.webp",
       title: "Kendarai <span class='text-red-500'>Impian</span> Anda Hari Ini.",
@@ -45,77 +45,98 @@ export default function Home() {
       title: "Tangguh Bersama <span class='text-red-500'>New Fortuner</span>",
       desc: "Simbol kekuatan dan kemapanan untuk Anda yang berjiwa petualang."
     }
-    
-    
-    
+
+
+
   ];
+  const sortedCars = [...cars].sort((a, b) => a.harga - b.harga);
+
+  // 3 termurah
+  const cheapestCars = sortedCars.slice(0, 3);
+
+  // Ambil 3 data tengah
+  const middleStart = Math.floor(sortedCars.length / 2) - 1;
+  const middleCars = sortedCars.slice(middleStart, middleStart + 3);
+
+  // 3 termahal
+  const expensiveCars = sortedCars.slice(-3);
+
+  // Gabungkan & hilangkan duplicate jika ada
+  const selectedCars = [
+    ...cheapestCars,
+    ...middleCars,
+    ...expensiveCars,
+  ].filter(
+    (car, index, self) =>
+      index === self.findIndex((c) => c.id === car.id)
+  );
   return (
     <div className="bg-white text-slate-900 font-sans">
-      
+
       {/* HERO SECTION WITH CAROUSEL */}
       {/* 1. Responsif Height: h-[70vh] di mobile, h-[85vh] di desktop */}
-<section className="relative h-[70vh] md:h-[85vh] bg-slate-900 overflow-hidden">
-  <Swiper
-    modules={[Autoplay, Pagination, EffectFade]}
-    effect="fade"
-    autoplay={{ delay: 5000, disableOnInteraction: false }}
-    pagination={{ clickable: true }}
-    loop={true}
-    className="h-full w-full"
-  >
-    {slides.map((slide, index) => (
-      <SwiperSlide key={index}>
-        <div className="relative h-full w-full flex items-center justify-center">
-          {/* Background Image - bg-center untuk mobile agar mobil tetap di tengah */}
-          <div 
-            className="absolute inset-0 bg-cover bg-center transition-transform duration-[5000ms] scale-110"
-            style={{ backgroundImage: `url('${slide.image}')` }}
-          />
-          
-          {/* Overlay: Di mobile lebih gelap (opacity-90) agar teks putih lebih kontras */}
-          <div className="absolute inset-0 bg-gradient-to-b md:bg-gradient-to-r from-black/90 via-black/40 to-transparent z-10" />
+      <section className="relative h-[70vh] md:h-[85vh] bg-slate-900 overflow-hidden">
+        <Swiper
+          modules={[Autoplay, Pagination, EffectFade]}
+          effect="fade"
+          autoplay={{ delay: 5000, disableOnInteraction: false }}
+          pagination={{ clickable: true }}
+          loop={true}
+          className="h-full w-full"
+        >
+          {slides.map((slide, index) => (
+            <SwiperSlide key={index}>
+              <div className="relative h-full w-full flex items-center justify-center">
+                {/* Background Image - bg-center untuk mobile agar mobil tetap di tengah */}
+                <div
+                  className="absolute inset-0 bg-cover bg-center transition-transform duration-[5000ms] scale-110"
+                  style={{ backgroundImage: `url('${slide.image}')` }}
+                />
 
-          {/* Content Wrapper */}
-          <div className="relative z-20 text-center px-6 max-w-4xl">
-            {/* Tag Promo: Ukuran lebih kecil di mobile */}
-            <span className="inline-block px-3 py-1 md:px-4 md:py-1.5 mb-4 md:mb-6 text-[10px] md:text-xs font-bold tracking-widest text-white uppercase bg-red-600 rounded-full animate-bounce">
-              Promo Terbatas Mei 2026
-            </span>
+                {/* Overlay: Di mobile lebih gelap (opacity-90) agar teks putih lebih kontras */}
+                <div className="absolute inset-0 bg-gradient-to-b md:bg-gradient-to-r from-black/90 via-black/40 to-transparent z-10" />
 
-            {/* Judul: text-3xl di mobile, text-7xl di desktop */}
-            <h1 
-              className="text-3xl md:text-7xl font-extrabold text-white mb-4 md:mb-6 tracking-tight leading-tight"
-              dangerouslySetInnerHTML={{ __html: slide.title }}
-            />
+                {/* Content Wrapper */}
+                <div className="relative z-20 text-center px-6 max-w-4xl">
+                  {/* Tag Promo: Ukuran lebih kecil di mobile */}
+                  <span className="inline-block px-3 py-1 md:px-4 md:py-1.5 mb-4 md:mb-6 text-[10px] md:text-xs font-bold tracking-widest text-white uppercase bg-red-600 rounded-full animate-bounce">
+                    Promo Terbatas Mei 2026
+                  </span>
 
-            {/* Deskripsi: text-sm (biar tidak kepanjangan) di mobile, max-w-xs agar rapi */}
-            <p className="text-sm md:text-xl text-slate-300 mb-8 md:mb-10 max-w-xs md:max-w-2xl mx-auto leading-relaxed">
-              {slide.desc}
-            </p>
+                  {/* Judul: text-3xl di mobile, text-7xl di desktop */}
+                  <h1
+                    className="text-3xl md:text-7xl font-extrabold text-white mb-4 md:mb-6 tracking-tight leading-tight"
+                    dangerouslySetInnerHTML={{ __html: slide.title }}
+                  />
 
-            {/* Tombol: Stack (tumpuk) di mobile, Row (sejajar) di desktop */}
-            <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center items-center">
-              <Link 
-                href="/mobil" 
-                className="w-full sm:w-auto px-8 py-3.5 md:py-4 bg-red-600 text-white rounded-xl font-bold text-base md:text-lg hover:bg-red-700 transition-all transform hover:scale-105 shadow-xl shadow-red-500/20"
-              >
-                Lihat Koleksi Mobil
-              </Link>
-              <Link 
-                href="/kontak" 
-                className="w-full sm:w-auto px-8 py-3.5 md:py-4 bg-white/10 backdrop-blur-md text-white border border-white/20 rounded-xl font-bold text-base md:text-lg hover:bg-white/20 transition-all"
-              >
-                Konsultasi Sales
-              </Link>
-            </div>
-          </div>
-        </div>
-      </SwiperSlide>
-    ))}
-  </Swiper>
+                  {/* Deskripsi: text-sm (biar tidak kepanjangan) di mobile, max-w-xs agar rapi */}
+                  <p className="text-sm md:text-xl text-slate-300 mb-8 md:mb-10 max-w-xs md:max-w-2xl mx-auto leading-relaxed">
+                    {slide.desc}
+                  </p>
 
-  {/* Custom Pagination Style - Diperkecil sedikit untuk mobile */}
-  <style jsx global>{`
+                  {/* Tombol: Stack (tumpuk) di mobile, Row (sejajar) di desktop */}
+                  <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center items-center">
+                    <Link
+                      href="/mobil"
+                      className="w-full sm:w-auto px-8 py-3.5 md:py-4 bg-red-600 text-white rounded-xl font-bold text-base md:text-lg hover:bg-red-700 transition-all transform hover:scale-105 shadow-xl shadow-red-500/20"
+                    >
+                      Lihat Koleksi Mobil
+                    </Link>
+                    <Link
+                      href="/kontak"
+                      className="w-full sm:w-auto px-8 py-3.5 md:py-4 bg-white/10 backdrop-blur-md text-white border border-white/20 rounded-xl font-bold text-base md:text-lg hover:bg-white/20 transition-all"
+                    >
+                      Konsultasi Sales
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+
+        {/* Custom Pagination Style - Diperkecil sedikit untuk mobile */}
+        <style jsx global>{`
     .swiper-pagination-bullet {
       background: white !important;
       width: 8px;
@@ -141,7 +162,7 @@ export default function Home() {
       }
     }
   `}</style>
-</section>
+      </section>
 
       {/* FEATURED CARS SECTION */}
       <section className="py-24 px-6 max-w-7xl mx-auto">
@@ -156,21 +177,21 @@ export default function Home() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {cars.map((mobil) => (
+          {selectedCars.map((mobil) => (
             <div key={mobil.id} className="group border border-slate-100 rounded-3xl overflow-hidden bg-white shadow-sm hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
               <div className="relative h-60 bg-slate-100 overflow-hidden">
                 {/* Placeholder Gambar - Pastikan file ada di /public/images/ */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
                 <div className="absolute top-4 left-4 z-30 flex flex-col gap-2">
-                    <span className="bg-amber-500 text-white text-[10px] font-black px-3 py-1 rounded-md shadow-lg uppercase tracking-wider">
-                        Promo Bunga 0%
-                    </span>
-                    <span className="bg-white/90 backdrop-blur-sm text-slate-900 text-[10px] font-bold px-3 py-1 rounded-md shadow-lg uppercase tracking-wider">
-                        Ready Stock
-                    </span>
+                  <span className="bg-amber-500 text-white text-[10px] font-black px-3 py-1 rounded-md shadow-lg uppercase tracking-wider">
+                    Promo Bunga 0%
+                  </span>
+                  <span className="bg-white/90 backdrop-blur-sm text-slate-900 text-[10px] font-bold px-3 py-1 rounded-md shadow-lg uppercase tracking-wider">
+                    Ready Stock
+                  </span>
                 </div>
-                <img 
-                  src={mobil.gambar} 
+                <img
+                  src={mobil.gambar}
                   alt={mobil.nama}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   onError={(e) => {
@@ -201,8 +222,8 @@ export default function Home() {
                     </div>
                   ))}
                 </div>
-                <Link 
-                  href={`/mobil/${mobil.id}`} 
+                <Link
+                  href={`/mobil/${mobil.id}`}
                   className="block w-full text-center py-4 rounded-2xl bg-slate-900 text-white font-bold hover:bg-red-600 transition-colors shadow-lg shadow-slate-200"
                 >
                   Lihat Detail
@@ -213,151 +234,177 @@ export default function Home() {
         </div>
       </section>
 
-    {/* CALL TO ACTION (WHATSAPP) - RESPONSIVE VERSION */}
-          {/* CALL TO ACTION (WHATSAPP) - SLIM MOBILE VERSION */}
-<section className="bg-red-600 py-8 md:py-16 px-4 md:px-6 rounded-[1.5rem] md:rounded-[3rem] max-w-5xl mx-5 md:mx-auto mb-12 md:mb-20 text-center text-white">
-  
-  {/* Judul: text-xl lebih ramping di HP */}
-  <h2 className="text-xl md:text-5xl font-bold mb-3 md:mb-6 leading-snug">
-    Punya Pertanyaan <br className="md:hidden" /> Seputar Promo?
-  </h2>
-  
-  {/* Deskripsi: text-xs/sm agar tidak memenuhi kotak */}
-  <p className="text-red-100 mb-6 md:mb-10 text-xs md:text-lg max-w-[250px] md:max-w-none mx-auto opacity-90">
-    Hubungi Sales Executive kami dan dapatkan cashback hingga {PROMO_INFO.cashback}!!
-  </p>
-  
-  {/* Button: Lebih kecil & proporsional */}
-  <a 
-    href={createWhatsAppLink(`Halo, saya tertarik dengan promo cashback ${PROMO_INFO.cashback}`)}
-    target="_blank" 
-    className="inline-block bg-white text-red-600 px-6 py-3 md:px-10 md:py-4 rounded-xl font-black text-sm md:text-xl hover:bg-slate-100 transition-all shadow-lg active:scale-95"
-  >
-    Chat WhatsApp
-  </a>
-</section>
+      {/* CALL TO ACTION (WHATSAPP) - RESPONSIVE VERSION */}
+      {/* CALL TO ACTION (WHATSAPP) - SLIM MOBILE VERSION */}
+      <section className="bg-red-600 py-8 md:py-16 px-4 md:px-6 rounded-[1.5rem] md:rounded-[3rem] max-w-5xl mx-5 md:mx-auto mb-12 md:mb-20 text-center text-white">
+
+        {/* Judul: text-xl lebih ramping di HP */}
+        <h2 className="text-xl md:text-5xl font-bold mb-3 md:mb-6 leading-snug">
+          Punya Pertanyaan <br className="md:hidden" /> Seputar Promo?
+        </h2>
+
+        {/* Deskripsi: text-xs/sm agar tidak memenuhi kotak */}
+        <p className="text-red-100 mb-6 md:mb-10 text-xs md:text-lg max-w-[250px] md:max-w-none mx-auto opacity-90">
+          Hubungi Sales Executive kami dan dapatkan cashback hingga {PROMO_INFO.cashback}!!
+        </p>
+
+        {/* Button: Lebih kecil & proporsional */}
+        <a
+          href={createWhatsAppLink(`Halo, saya tertarik dengan promo cashback ${PROMO_INFO.cashback}`)}
+          target="_blank"
+          className="inline-block bg-white text-red-600 px-6 py-3 md:px-10 md:py-4 rounded-xl font-black text-sm md:text-xl hover:bg-slate-100 transition-all shadow-lg active:scale-95"
+        >
+          Chat WhatsApp
+        </a>
+      </section>
 
       {/* TESTIMONIAL SECTION - PREMIUM LAYOUT */}
-        <section className="py-24 bg-slate-50 overflow-hidden">
+      <section className="py-24 bg-slate-50 overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 text-center mb-16">
-            <span className="text-red-600 font-bold tracking-widest text-sm uppercase">Apa Kata Mereka?</span>
-            <h2 className="text-4xl font-black text-slate-900 mt-2">Kepuasan Pelanggan Adalah Prioritas</h2>
-            <p className="text-slate-500 mt-4 max-w-xl mx-auto text-lg">Bukti nyata kepuasan pelanggan yang telah mempercayakan kendaraan impian mereka kepada kami.</p>
+          <span className="text-red-600 font-bold tracking-widest text-sm uppercase">Apa Kata Mereka?</span>
+          <h2 className="text-4xl font-black text-slate-900 mt-2">Kepuasan Pelanggan Adalah Prioritas</h2>
+          <p className="text-slate-500 mt-4 max-w-xl mx-auto text-lg">Bukti nyata kepuasan pelanggan yang telah mempercayakan kendaraan impian mereka kepada kami.</p>
         </div>
 
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
-            {testimonials.map((testi) => (
+          {testimonials.map((testi) => (
             <div key={testi.id} className="group bg-white rounded-[3rem] overflow-hidden border border-slate-100 shadow-sm hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
-                
-                {/* 1. FOTO SERAH TERIMA UNIT (UTAMA) */}
-                <div className="relative h-64 w-full bg-slate-100 overflow-hidden">
+
+              {/* 1. FOTO SERAH TERIMA UNIT (UTAMA) */}
+              <div className="relative h-64 w-full bg-slate-100 overflow-hidden">
                 {/* Overlay Halus saat Hover */}
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 z-10 transition-colors duration-500" />
-                
-                <Image 
-                    src={testi.fotoSerahTerima} 
-                    alt={`Serah Terima ${testi.unit}`}
-                    fill
-                    className="object-cover transition-transform duration-500 group-hover:scale-105"
-                    unoptimized // Tambahkan jika menggunakan URL luar
+
+                <Image
+                  src={testi.fotoSerahTerima}
+                  alt={`Serah Terima ${testi.unit}`}
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  unoptimized // Tambahkan jika menggunakan URL luar
                 />
-                
+
                 {/* Label Unit yang Dibeli */}
                 <div className="absolute top-4 right-4 z-20">
-                    <span className="bg-red-600 text-white text-[10px] font-black px-3 py-1 rounded-full uppercase tracking-wider">
+                  <span className="bg-red-600 text-white text-[10px] font-black px-3 py-1 rounded-full uppercase tracking-wider">
                     {testi.unit}
-                    </span>
+                  </span>
                 </div>
-                </div>
+              </div>
 
-                {/* 2. ISI TESTIMONI & PROFIL */}
-                <div className="p-8">
+              {/* 2. ISI TESTIMONI & PROFIL */}
+              <div className="p-8">
                 {/* Rating Bintang */}
                 <div className="flex gap-1 text-amber-400 mb-5">
-                    {[...Array(5)].map((_, i) => (
+                  {[...Array(5)].map((_, i) => (
                     <span key={i} className="text-lg">★</span>
-                    ))}
+                  ))}
                 </div>
-                
+
                 {/* Pesan Testimoni dengan Kutipan Besar */}
                 <div className="relative mb-8">
-                    <span className="absolute -top-4 -left-2 text-6xl text-slate-100 font-serif">“</span>
-                    <p className="text-slate-600 leading-relaxed italic relative z-10 pl-2">
+                  <span className="absolute -top-4 -left-2 text-6xl text-slate-100 font-serif">“</span>
+                  <p className="text-slate-600 leading-relaxed italic relative z-10 pl-2">
                     {testi.pesan}
-                    </p>
+                  </p>
                 </div>
 
                 {/* Info Pelanggan */}
                 <div className="flex items-center gap-4 pt-6 border-t border-slate-100">
-                    <div className="relative w-14 h-14 rounded-full overflow-hidden border-2 border-red-50">
-                    <Image 
-                        src={testi.fotoProfil} 
-                        alt={testi.nama} 
-                        fill 
-                        className="object-cover" 
-                        unoptimized
+                  <div className="relative w-14 h-14 rounded-full overflow-hidden border-2 border-red-50">
+                    <Image
+                      src={testi.fotoProfil}
+                      alt={testi.nama}
+                      fill
+                      className="object-cover"
+                      unoptimized
                     />
-                    </div>
-                    <div className="text-left">
+                  </div>
+                  <div className="text-left">
                     <h4 className="font-bold text-slate-900">{testi.nama}</h4>
                     <p className="text-xs text-slate-400 font-medium uppercase tracking-wider">{testi.pekerjaan}</p>
-                    </div>
+                  </div>
                 </div>
-                </div>
+              </div>
             </div>
-            ))}
+          ))}
         </div>
-        </section>
+      </section>
 
     </div>
   );
 }
 
 const testimonials = [
-  {
-    id: 1,
-    nama: "Budi Santoso",
-    pekerjaan: "Wiraswasta",
-    pesan: "Pelayanan sangat cepat! Proses pengajuan kredit Toyota Rush saya hanya butuh 3 hari sampai unit dikirim ke rumah. Salesnya sangat membantu.",
-    fotoProfil: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200", // Foto orangnya
-    // FOTO SERAH TERIMA (Kunci Visual)
-    fotoSerahTerima: "/images/kiki voxy.png", 
-    unit: "Toyota Voxy 2.0"
-  },
-  {
-    id: 2,
-    nama: "Siti Aminah",
-    pekerjaan: "Ibu Rumah Tangga",
-    pesan: "Dapat promo bunga 0% untuk Avanza baru. Penjelasan sales sangat detail dan jujur mengenai simulasi kreditnya. Sangat puas!",
-    fotoProfil: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200",
-    fotoSerahTerima: "/images/kiki raize g.png",
-    unit: "Toyota Raize G CVT 1.2"
-  },
-  {
-    id: 3,
-    nama: "dr. Andi Wijaya",
-    pekerjaan: "Dokter",
-    pesan: "Showroom-nya nyaman dan pilihan unit Toyota-nya lengkap. Terima kasih atas hadiah langsung aksesorisnya saat serah terima Fortuner saya.",
-    fotoProfil: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=200",
-    fotoSerahTerima: "/images/kiki fortuner gr.png",
-    unit: "Toyota Fortuner GR 4X2"
-  },
+  // {
+  //   id: 1,
+  //   nama: "Budi Santoso",
+  //   pekerjaan: "Wiraswasta",
+  //   pesan: "Pelayanan sangat cepat! Proses pengajuan kredit Toyota Rush saya hanya butuh 3 hari sampai unit dikirim ke rumah. Salesnya sangat membantu.",
+  //   fotoProfil: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200",
+  //   fotoSerahTerima: "/images/kiki voxy.png",
+  //   unit: "Toyota Voxy 2.0"
+  // },
+  // {
+  //   id: 2,
+  //   nama: "Siti Aminah",
+  //   pekerjaan: "Ibu Rumah Tangga",
+  //   pesan: "Dapat promo bunga 0% untuk Avanza baru. Penjelasan sales sangat detail dan jujur mengenai simulasi kreditnya. Sangat puas!",
+  //   fotoProfil: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200",
+  //   fotoSerahTerima: "/images/kiki raize g.png",
+  //   unit: "Toyota Raize G CVT 1.2"
+  // },
+  // {
+  //   id: 3,
+  //   nama: "dr. Andi Wijaya",
+  //   pekerjaan: "Dokter",
+  //   pesan: "Showroom-nya nyaman dan pilihan unit Toyota-nya lengkap. Terima kasih atas hadiah langsung aksesorisnya saat serah terima Fortuner saya.",
+  //   fotoProfil: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=200",
+  //   fotoSerahTerima: "/images/kiki fortuner gr.png",
+  //   unit: "Toyota Fortuner GR 4X2"
+  // },
   {
     id: 4,
-    nama: "dr. Andi Wijaya",
-    pekerjaan: "Dokter",
-    pesan: "Showroom-nya nyaman dan pilihan unit Toyota-nya lengkap. Terima kasih atas hadiah langsung aksesorisnya saat serah terima Fortuner saya.",
-    fotoProfil: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=200",
+    nama: "Rina Marlina",
+    pekerjaan: "Pegawai Bank",
+    pesan: "Saya senang karena proses trade-in mobil lama sangat dibantu dari awal sampai selesai. Akhirnya jadi ambil Avanza baru untuk keluarga.",
+    fotoProfil: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200",
     fotoSerahTerima: "/images/kiki avanza.png",
     unit: "Toyota Avanza E M/T"
   },
   {
     id: 5,
-    nama: "dr. Andi Wijaya",
-    pekerjaan: "Dokter",
-    pesan: "Showroom-nya nyaman dan pilihan unit Toyota-nya lengkap. Terima kasih atas hadiah langsung aksesorisnya saat serah terima Fortuner saya.",
-    fotoProfil: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=200",
+    nama: "Kevin Saputra",
+    pekerjaan: "Content Creator",
+    pesan: "Agya CVT-nya nyaman banget dipakai harian di kota. Sales responsif dan proses SPK sampai delivery unit cepat sekali.",
+    fotoProfil: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200",
     fotoSerahTerima: "/images/kiki agya g.png",
     unit: "Toyota Agya G CVT"
+  },
+  {
+    id: 6,
+    nama: "Hendra Gunawan",
+    pekerjaan: "Kontraktor",
+    pesan: "Fortuner GR Sport yang saya pesan datang sesuai estimasi. Pelayanan after sales juga sangat profesional dan ramah.",
+    fotoProfil: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=200",
+    fotoSerahTerima: "/images/kiki fortuner gr.png",
+    unit: "Toyota Fortuner GR Sport"
+  },
+  {
+    id: 7,
+    nama: "Lia Kartika",
+    pekerjaan: "Guru",
+    pesan: "Saya pertama kali beli mobil dan sangat terbantu dengan penjelasan leasing serta simulasi cicilan yang jelas dan tidak membingungkan.",
+    fotoProfil: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200",
+    fotoSerahTerima: "/images/kiki raize g.png",
+    unit: "Toyota Raize GR Sport"
+  },
+  {
+    id: 8,
+    nama: "Fajar Pratama",
+    pekerjaan: "Pengusaha Kuliner",
+    pesan: "Voxy sangat nyaman dipakai untuk perjalanan bisnis dan keluarga. Interior premium dan fitur-fiturnya lengkap sekali.",
+    fotoProfil: "https://images.unsplash.com/photo-1504257432389-52343af06ae3?q=80&w=200",
+    fotoSerahTerima: "/images/kiki voxy.png",
+    unit: "Toyota Voxy 2.0 CVT"
   }
 ];

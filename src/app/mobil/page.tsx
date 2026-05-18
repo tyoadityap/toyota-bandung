@@ -10,11 +10,25 @@ export default function DaftarMobil() {
 
   // Mengambil kategori unik dari data (misal: SUV, MPV)
   // Jika di JSON belum ada field 'tipe', kita bisa filter berdasarkan kata kunci di spesifikasi
-  const kategori = ['Semua', 'SUV', 'MPV', 'Sedan'];
+  const kategori = [
+    'Semua',
+    ...Array.from(new Set(cars.map((mobil) => mobil.tipe)))
+  ];
 
-  const mobilTersaring = filter === 'Semua' 
-    ? cars 
+  const mobilTersaring = filter === 'Semua'
+    ? cars
     : cars.filter(mobil => mobil.tipe === filter);
+
+
+  const groupedCars = mobilTersaring.reduce((acc, mobil) => {
+    if (!acc[mobil.parent]) {
+      acc[mobil.parent] = [];
+    }
+
+    acc[mobil.parent].push(mobil);
+
+    return acc;
+  }, {} as Record<string, typeof cars>);
 
   return (
     <div className="bg-slate-50 min-h-screen pb-20">
@@ -33,11 +47,10 @@ export default function DaftarMobil() {
             <button
               key={kat}
               onClick={() => setFilter(kat)}
-              className={`px-6 py-2 rounded-full font-semibold transition-all ${
-                filter === kat 
-                ? 'bg-red-600 text-white shadow-lg shadow-red-200' 
+              className={`px-6 py-2 rounded-full font-semibold transition-all ${filter === kat
+                ? 'bg-red-600 text-white shadow-lg shadow-red-200'
                 : 'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200'
-              }`}
+                }`}
             >
               {kat}
             </button>
@@ -45,39 +58,108 @@ export default function DaftarMobil() {
         </div>
 
         {/* Grid Daftar Mobil */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {mobilTersaring.map((mobil) => (
-            <div key={mobil.id} className="group bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all">
-              <div className="relative h-56">
-                <Image 
-                  src={mobil.gambar} 
-                  alt={mobil.nama}
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
-                  unoptimized
-                />
+
+        <div className="container mx-auto px-4">
+
+          {Object.entries(groupedCars).map(([parent, mobilGroup]) => (
+            <div key={parent} className="mb-20">
+
+              {/* Header Parent */}
+              <div className="mb-8">
+                <h2 className="text-4xl font-black text-slate-900">
+                  {parent}
+                </h2>
+
+                <div className="w-24 h-1 bg-red-600 mt-3 rounded-full" />
               </div>
-              <div className="p-6">
-                <div className="flex justify-between items-center mb-4">
-                  <h3 className="text-xl font-bold">{mobil.nama}</h3>
-                  <span className="text-xs font-bold text-red-600 bg-red-50 px-2 py-1 rounded">Baru</span>
-                </div>
-                <p className="text-slate-500 text-sm mb-6 line-clamp-2">{mobil.deskripsi}</p>
-                <div className="flex justify-between items-center pt-6 border-t border-slate-50">
-                  <div>
-                    <p className="text-xs text-slate-400">Mulai dari</p>
-                    <p className="text-xl font-black text-slate-900">Rp {(mobil.harga / 1000000).toLocaleString('id-ID')} Jt</p>
-                  </div>
-                  <Link 
-                    href={`/mobil/${mobil.id}`}
-                    className="bg-slate-900 text-white px-5 py-2.5 rounded-xl font-bold text-sm hover:bg-red-600 transition"
+
+              {/* List Mobil */}
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                {mobilGroup.map((mobil) => (
+                  <div
+                    key={mobil.id}
+                    className="group border border-slate-100 rounded-3xl overflow-hidden bg-white shadow-sm hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
                   >
-                    Detail
-                  </Link>
-                </div>
+                    <div className="relative h-60 bg-slate-100 overflow-hidden">
+
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+
+                      <div className="absolute top-4 left-4 z-30 flex flex-col gap-2">
+                        <span className="bg-amber-500 text-white text-[10px] font-black px-3 py-1 rounded-md shadow-lg uppercase tracking-wider">
+                          Promo Bunga 0%
+                        </span>
+
+                        <span className="bg-white/90 backdrop-blur-sm text-slate-900 text-[10px] font-bold px-3 py-1 rounded-md shadow-lg uppercase tracking-wider">
+                          Ready Stock
+                        </span>
+                      </div>
+
+                      <img
+                        src={mobil.gambar}
+                        alt={mobil.nama}
+                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                        onError={(e) => {
+                          (e.target as HTMLImageElement).src =
+                            "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=800";
+                        }}
+                      />
+                    </div>
+
+                    <div className="p-8">
+
+                      <div className="flex justify-between items-start mb-4">
+                        <div>
+                          <h3 className="text-2xl font-bold text-slate-900 mb-1">
+                            {mobil.nama}
+                          </h3>
+
+                          <p className="text-sm text-slate-400 font-medium uppercase tracking-wider">
+                            {mobil.spesifikasi[0]}
+                          </p>
+                        </div>
+
+                        <span className="bg-red-50 text-red-600 text-xs font-bold px-3 py-1 rounded-full uppercase">
+                          Ready
+                        </span>
+                      </div>
+
+                      <div className="flex items-baseline gap-1 mb-6">
+                        <span className="text-sm font-bold text-slate-500">
+                          Mulai
+                        </span>
+
+                        <span className="text-2xl font-black text-slate-600">
+                          Rp {(mobil.harga / 1000000).toLocaleString('id-ID')} Jt
+                        </span>
+                      </div>
+
+                      <div className="grid grid-cols-2 gap-4 mb-8">
+                        {mobil.spesifikasi.slice(1, 3).map((spec, idx) => (
+                          <div
+                            key={idx}
+                            className="flex items-center gap-2 text-sm text-slate-500 bg-slate-50 p-2 rounded-lg"
+                          >
+                            <span>✓ {spec}</span>
+                          </div>
+                        ))}
+                      </div>
+
+                      <Link
+                        href={`/mobil/${mobil.id}`}
+                        className="block w-full text-center py-4 rounded-2xl bg-slate-900 text-white font-bold hover:bg-red-600 transition-colors shadow-lg shadow-slate-200"
+                      >
+                        Lihat Detail
+                      </Link>
+
+                    </div>
+                  </div>
+                ))}
+
               </div>
             </div>
           ))}
+
         </div>
 
         {/* Jika Hasil Kosong */}

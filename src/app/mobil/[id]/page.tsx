@@ -6,18 +6,40 @@ import Link from 'next/link';
 import Image from 'next/image';
 import carsData from '../../../data/cars.json';
 import { createWhatsAppLink, PROMO_INFO } from "../../../lib/constants";
+import { useRouter } from 'next/navigation';
 
 export default function DetailMobil() {
   const params = useParams();
-  const id = params.id;
-  const mobil = carsData.find((item) => item.id === id);
+  const router = useRouter();
 
-  // State untuk melacak foto mana yang sedang ditampilkan di layar besar
+  const id = params.id;
+
+  const mobil = carsData.find((item) => item.id === id);
+  const mobilSatuGroup = carsData.filter(
+    (item) => item.parent === mobil?.parent
+  );
+
   const [activeImage, setActiveImage] = useState(0);
 
-  if (!mobil) return <div className="text-center py-20">Mobil tidak ditemukan</div>;
+  if (!mobil) {
+    return (
+      <div className="text-center py-20">
+        Mobil tidak ditemukan
+      </div>
+    );
+  }
 
-  // Pastikan data galeri ada, jika tidak pakai gambar default
+  // Group berdasarkan parent
+  const groupedCars = carsData.reduce((acc, item) => {
+    if (!acc[item.parent]) {
+      acc[item.parent] = [];
+    }
+
+    acc[item.parent].push(item);
+
+    return acc;
+  }, {} as Record<string, typeof carsData>);
+
   const daftarGambar = mobil.galeri || [mobil.gambar];
 
   return (
@@ -29,13 +51,13 @@ export default function DetailMobil() {
       </div>
 
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12">
-        
+
         {/* KOLOM KIRI: GALERI FOTO */}
         <div className="space-y-4">
           {/* Foto Utama Besar */}
           <div className="relative h-[350px] md:h-[450px] rounded-3xl overflow-hidden shadow-xl bg-slate-100">
-            <Image 
-              src={daftarGambar[activeImage]} 
+            <Image
+              src={daftarGambar[activeImage]}
               alt={mobil.nama}
               fill
               className="object-cover transition-all duration-500"
@@ -46,12 +68,11 @@ export default function DetailMobil() {
           {/* Daftar Thumbnail (Foto Kecil) */}
           <div className="grid grid-cols-4 gap-4">
             {daftarGambar.map((img, index) => (
-              <button 
+              <button
                 key={index}
                 onClick={() => setActiveImage(index)}
-                className={`relative h-20 md:h-24 rounded-xl overflow-hidden border-2 transition-all ${
-                  activeImage === index ? 'border-red-600 scale-95' : 'border-transparent opacity-60 hover:opacity-100'
-                }`}
+                className={`relative h-20 md:h-24 rounded-xl overflow-hidden border-2 transition-all ${activeImage === index ? 'border-red-600 scale-95' : 'border-transparent opacity-60 hover:opacity-100'
+                  }`}
               >
                 <Image src={img} alt={`Detail ${index}`} fill className="object-cover" unoptimized />
               </button>
@@ -61,9 +82,34 @@ export default function DetailMobil() {
 
         {/* KOLOM KANAN: INFO MOBIL */}
         <div className="flex flex-col">
-          <h1 className="text-4xl md:text-5xl font-black text-slate-900 mb-2">{mobil.nama}</h1>
+          {/* Dropdown Variant */}
+          {/* Dropdown Variant */}
+          <div className="mb-6">
+            <label className="block text-sm font-bold text-slate-500 mb-2 uppercase tracking-wider">
+              Pilih Varian
+            </label>
+
+            <select
+              value={mobil.id}
+              onChange={(e) => {
+                setActiveImage(0);
+                router.push(`/mobil/${e.target.value}`);
+              }}
+              className="w-full border border-slate-200 rounded-2xl px-5 py-4 bg-white text-slate-900 font-semibold focus:outline-none focus:ring-2 focus:ring-red-500"
+            >
+              {mobilSatuGroup.map((item) => (
+                <option key={item.id} value={item.id}>
+                  {item.nama} - Rp {(item.harga / 1000000).toLocaleString('id-ID')} Jt
+                </option>
+              ))}
+            </select>
+          </div>
+
+          <h1 className="text-4xl md:text-5xl font-black text-slate-900 mb-2">
+            {mobil.nama}
+          </h1>
           <p className="text-red-600 font-bold mb-6 tracking-widest text-sm uppercase">Official Toyota Dealer</p>
-          
+
           <div className="bg-slate-900 text-white p-6 rounded-2xl mb-8 flex justify-between items-center">
             <div>
               <p className="text-slate-400 text-sm">Harga OTR Mulai</p>
@@ -91,9 +137,9 @@ export default function DetailMobil() {
 
           {/* Tombol Aksi */}
           <div className="flex flex-col sm:flex-row gap-4 mt-10">
-            <a 
-              href={createWhatsAppLink("Halo, saya ingin tanya promo Toyota terbaru")} 
-              target="_blank" 
+            <a
+              href={createWhatsAppLink("Halo, saya ingin tanya promo Toyota terbaru")}
+              target="_blank"
               rel="noopener noreferrer"
               className="flex-[2] bg-[#eb0a1e] text-white text-center py-4 rounded-2xl font-bold text-lg hover:bg-red-700 shadow-lg shadow-red-200 transition"
             >

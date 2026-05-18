@@ -1,69 +1,806 @@
 [
     {
-    "id": "toyota-rush-gr",
-    "nama": "Toyota Rush GR Sport",
-    "tipe": "SUV",
-    "harga": 302200000,
-        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/car_variant_image/tXJBFxo7texeRLKe2YkFBi2ZEVg8XhOIp3y01sjq.png",
-    "galeri": [
-        "https://d1g6w7sntckt92.cloudfront.net/public/images/car_variant_image/tXJBFxo7texeRLKe2YkFBi2ZEVg8XhOIp3y01sjq.png",
-        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/s773jO8toWJ6eU7ytb8utI4r3tLQpW9XfzeaVnoz.jpg",
-        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/PFSSDKtaDSoW4O6WQo9gETqntv3RRVUpa0OWKXFa.jpg",
-        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/IRlL6VsX8mHq9EgYaEx4w1WIsxJKQnTHAUOtOhbX.jpg",
-        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/s3sm4I8vC76DdfOBAnph58uTfAy9nRKId9jyiBMR.jpg"
-    ],
-    "deskripsi": "SUV keluarga paling tangguh dengan tampilan sporty khas Gazoo Racing.",
-    "spesifikasi": ["1.5L Dual VVT-i", "7 Seater", "6 SRS Airbags"]
+        "id": "1",
+        "parent": "New Agya",
+        "nama": "Toyota Agya G 1.2 Manual",
+        "tipe": "Hatchback",
+        "harga": 184600000,
+        "gambar": "/images/cars/agya/agya-front.jpg",
+        "galeri": [
+            "/images/cars/agya/agya-front.jpg",
+            "/images/cars/agya/agya-side.jpg",
+            "/images/cars/agya/agya-interior.jpg"
+        ],
+        "deskripsi": "City car modern dengan desain sporty dan konsumsi BBM irit untuk mobilitas perkotaan.",
+        "spesifikasi": [
+            "1.2L Dual VVT-i",
+            "5 Seater",
+            "Manual Transmission",
+            "ABS + EBD",
+            "Digital AC"
+        ]
     },
-  {
-    "id": "toyota-avanza",
-    "nama": "All New Avanza",
-    "tipe": "MPV",
-    "harga": 237100000,
-    "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/car_variant_image/i9xtSSTtQymbTe2bQxWdWRO8BXaaFfs8Ao9NDrlC.png",
-    "galeri": [
-        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/pDujsXic5MS0RtAHcxG3PjyM60qYVjkNboEprNma.jpg",
-        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/xBkuKhqjE1SmD04P6Ca5MuBZOv15uSamLyXg51K6.jpg",
-        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/sie3TQ4l5rxVezwmk2myj1G3TQegxk8KJ5WDva1Z.jpg",
-        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/rMyV1VDwJhqGnA1ovigReqHksyjQq2fghbwP8qzz.jpg",
-        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/ljrjFzadZnICuS07dU0eN8ZIg5rBAfFvMpiD10kL.jpg",
-        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/ljrjFzadZnICuS07dU0eN8ZIg5rBAfFvMpiD10kL.jpg"
-    ],
-    "deskripsi": "Mobil sejuta umat dengan kenyamanan ekstra dan transmisi CVT yang halus.",
-    "spesifikasi": ["1.3L / 1.5L Engine", "7 Seater", "FF Layout", "Toyota Safety Sense"]
-  },
-  {
-    "id": "toyota-veloz",
-    "nama": "All New Veloz",
-    "tipe": "MPV",
-    "harga": 290700000,
-    "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/car_variant_image/L3Dc2zDVpSZvjcQVUM0IhXB3ZDL4xZXgwDlxH5xP.png",
-    "galeri": [
-        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/Iajd0VGV0a8Dir03sGpnPGaXiGmoTErN4iLM5cbk.jpg",
-        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/fVeP4flez8kzjB9nGTdm7chOB8kd9JOFiFaVZAN2.jpg",
-        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/FhRZknFxBGsKGNuOahOaNnLc2RA65ZRZVarWQ644.jpg",
-        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/oDDWnJ1E9sBM7KESLXq6aFIJs20HKLCh5GhZNt7W.jpg",
-        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/7fqP6c4Kq9gQLhTF5S4HBgi89hGhHgwl6JICQPwt.jpg",
-        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/5EP46akwzK87sjFY39d9AZhYRoenh1rvaIl41jgC.jpg"
-    ],
-    "deskripsi": "MPV premium dengan fitur teknologi tercanggih di kelasnya untuk kenyamanan keluarga Anda.",
-    "spesifikasi": ["Wireless Charger", "Electric Parking Brake", "Full Digital Meter", "T-Intouch"]
-  },
-  {
-    "id": "toyota-fortuner-gr",
-    "nama": "New Fortuner GR Sport",
-    "tipe": "SUV",
-    "harga": 564200000,
-    "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/car_variant_image/QJnN3loZz8PmdRzcZaa4X2q1SotO8hRnnECkIlaw.png",
-    "galeri": [
-        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/CCb7jV95QFM9D5KB5D2oS0reZ1JLEIIOZBDTCpQ3.jpg",
-        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/lKXlNGPmVVl6Dk5DDbjCxm07xSOZm9StPWaBIlVN.jpg",
-        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/nP3e4PN3As4JmMmSB5egQHe6s6L7YSEM4YHtM5wp.jpg",
-        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/2i3xQxWsAdpRdafuklTOxwTHy6Lz3ocefMWHZ20N.jpg",
-        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/P8SXu7glsjgrfSCH6cIoBAcaKaSSzYDAdxsZ7h82.jpg",
-        "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/PPMZORTHTQfB2ohuMKUvApL7ErzIDpvwPKEI6VFJ.jpg"
-    ],
-    "deskripsi": "Simbol kekuatan dan kemapanan. Tangguh di segala medan dengan mesin diesel berperforma tinggi.",
-    "spesifikasi": ["2.8L Diesel Engine", "4x4 Drive System", "Power Back Door", "New GR Part"]
-  }
+    {
+        "id": "2",
+        "parent": "New Agya",
+        "nama": "Toyota Agya G 1.2 CVT",
+        "tipe": "Hatchback",
+        "harga": 200800000,
+        "gambar": "/images/cars/agya/agya-front.jpg",
+        "galeri": [
+            "/images/cars/agya/agya-front.jpg",
+            "/images/cars/agya/agya-side.jpg",
+            "/images/cars/agya/agya-interior.jpg"
+        ],
+        "deskripsi": "City car modern dengan transmisi CVT yang nyaman dan efisien untuk penggunaan harian.",
+        "spesifikasi": [
+            "1.2L Dual VVT-i",
+            "5 Seater",
+            "CVT Transmission",
+            "ABS + EBD",
+            "Push Start Button"
+        ]
+    },
+    {
+        "id": "3",
+        "parent": "New Agya",
+        "nama": "Toyota Agya Stylix CVT",
+        "tipe": "Hatchback",
+        "harga": 204300000,
+        "gambar": "/images/cars/agya/agya-stylix-front.jpg",
+        "galeri": [
+            "/images/cars/agya/agya-stylix-front.jpg",
+            "/images/cars/agya/agya-stylix-side.jpg",
+            "/images/cars/agya/agya-stylix-interior.jpg"
+        ],
+        "deskripsi": "Varian sporty Agya dengan tampilan agresif dan fitur modern khas Stylix.",
+        "spesifikasi": [
+            "1.2L Dual VVT-i",
+            "5 Seater",
+            "CVT Transmission",
+            "Stylix Body Kit",
+            "LED Headlamp"
+        ]
+    },
+    {
+        "id": "4",
+        "parent": "Calya",
+        "nama": "Toyota Calya E Manual",
+        "tipe": "MPV",
+        "harga": 176700000,
+        "gambar": "/images/cars/calya/calya-front.jpg",
+        "galeri": [
+            "/images/cars/calya/calya-front.jpg",
+            "/images/cars/calya/calya-side.jpg",
+            "/images/cars/calya/calya-interior.jpg"
+        ],
+        "deskripsi": "MPV keluarga ekonomis dengan kabin luas dan konsumsi bahan bakar irit.",
+        "spesifikasi": [
+            "1.2L Dual VVT-i",
+            "7 Seater",
+            "Manual Transmission",
+            "Dual Airbags"
+        ]
+    },
+    {
+        "id": "5",
+        "parent": "Calya",
+        "nama": "Toyota Calya G Manual",
+        "tipe": "MPV",
+        "harga": 182600000,
+        "gambar": "/images/cars/calya/calya-front.jpg",
+        "galeri": [
+            "/images/cars/calya/calya-front.jpg",
+            "/images/cars/calya/calya-side.jpg",
+            "/images/cars/calya/calya-interior.jpg"
+        ],
+        "deskripsi": "MPV keluarga nyaman dengan fitur lebih lengkap dan desain modern.",
+        "spesifikasi": [
+            "1.2L Dual VVT-i",
+            "7 Seater",
+            "Manual Transmission",
+            "Rear Parking Sensor"
+        ]
+    },
+    {
+        "id": "6",
+        "parent": "Calya",
+        "nama": "Toyota Calya G Automatic",
+        "tipe": "MPV",
+        "harga": 196400000,
+        "gambar": "/images/cars/calya/calya-front.jpg",
+        "galeri": [
+            "/images/cars/calya/calya-front.jpg",
+            "/images/cars/calya/calya-side.jpg",
+            "/images/cars/calya/calya-interior.jpg"
+        ],
+        "deskripsi": "MPV keluarga dengan transmisi otomatis untuk kenyamanan berkendara di perkotaan.",
+        "spesifikasi": [
+            "1.2L Dual VVT-i",
+            "7 Seater",
+            "Automatic Transmission",
+            "Touchscreen Head Unit"
+        ]
+    },
+    {
+        "id": "7",
+        "parent": "New Avanza",
+        "nama": "Toyota Avanza 1.3 E CVT",
+        "tipe": "MPV",
+        "harga": 262200000,
+        "gambar": "/images/cars/avanza/avanza-front.jpg",
+        "galeri": [
+            "/images/cars/avanza/avanza-front.jpg",
+            "/images/cars/avanza/avanza-side.jpg",
+            "/images/cars/avanza/avanza-interior.jpg"
+        ],
+        "deskripsi": "MPV keluarga modern dengan transmisi CVT yang nyaman dan efisien.",
+        "spesifikasi": [
+            "1.3L Engine",
+            "7 Seater",
+            "CVT Transmission",
+            "Vehicle Stability Control"
+        ]
+    },
+    {
+        "id": "8",
+        "parent": "New Avanza",
+        "nama": "Toyota Avanza 1.5 G CVT",
+        "tipe": "MPV",
+        "harga": 285000000,
+        "gambar": "/images/cars/avanza/avanza-front.jpg",
+        "galeri": [
+            "/images/cars/avanza/avanza-front.jpg",
+            "/images/cars/avanza/avanza-side.jpg",
+            "/images/cars/avanza/avanza-interior.jpg"
+        ],
+        "deskripsi": "Varian Avanza lebih bertenaga dengan fitur keselamatan dan kenyamanan modern.",
+        "spesifikasi": [
+            "1.5L Engine",
+            "7 Seater",
+            "CVT Transmission",
+            "Toyota Safety Sense"
+        ]
+    },
+    {
+        "id": "9",
+        "parent": "All New Rush",
+        "nama": "Toyota Rush G Manual",
+        "tipe": "SUV",
+        "harga": 296400000,
+        "gambar": "/images/cars/rush/rush-front.jpg",
+        "galeri": [
+            "/images/cars/rush/rush-front.jpg",
+            "/images/cars/rush/rush-side.jpg",
+            "/images/cars/rush/rush-interior.jpg"
+        ],
+        "deskripsi": "SUV keluarga dengan ground clearance tinggi dan desain tangguh.",
+        "spesifikasi": [
+            "1.5L Dual VVT-i",
+            "7 Seater",
+            "Manual Transmission",
+            "Hill Start Assist"
+        ]
+    },
+    {
+        "id": "10",
+        "parent": "All New Rush",
+        "nama": "Toyota Rush G Automatic",
+        "tipe": "SUV",
+        "harga": 307300000,
+        "gambar": "/images/cars/rush/rush-front.jpg",
+        "galeri": [
+            "/images/cars/rush/rush-front.jpg",
+            "/images/cars/rush/rush-side.jpg",
+            "/images/cars/rush/rush-interior.jpg"
+        ],
+        "deskripsi": "SUV keluarga dengan transmisi otomatis dan kenyamanan berkendara maksimal.",
+        "spesifikasi": [
+            "1.5L Dual VVT-i",
+            "7 Seater",
+            "Automatic Transmission",
+            "Vehicle Stability Control"
+        ]
+    },
+    {
+        "id": "11",
+        "parent": "All New Rush",
+        "nama": "Toyota Rush GR Sport",
+        "tipe": "SUV",
+        "harga": 322500000,
+        "gambar": "/images/cars/rush/rush-gr-front.jpg",
+        "galeri": [
+            "/images/cars/rush/rush-gr-front.jpg",
+            "/images/cars/rush/rush-gr-side.jpg",
+            "/images/cars/rush/rush-gr-interior.jpg"
+        ],
+        "deskripsi": "SUV sporty dengan tampilan khas Gazoo Racing dan fitur modern.",
+        "spesifikasi": [
+            "1.5L Dual VVT-i",
+            "7 Seater",
+            "GR Body Kit",
+            "6 Airbags",
+            "Smart Entry"
+        ]
+    },
+    {
+        "id": "12",
+        "parent": "Veloz Hybrid",
+        "nama": "Toyota Veloz 1.5 V HV",
+        "tipe": "MPV",
+        "harga": 303000000,
+        "gambar": "/images/cars/veloz/veloz-hv-front.jpg",
+        "galeri": [
+            "/images/cars/veloz/veloz-hv-front.jpg",
+            "/images/cars/veloz/veloz-hv-side.jpg",
+            "/images/cars/veloz/veloz-hv-interior.jpg"
+        ],
+        "deskripsi": "MPV modern dengan tampilan premium dan efisiensi berkendara tinggi.",
+        "spesifikasi": [
+            "1.5L Engine",
+            "CVT Transmission",
+            "7 Seater",
+            "Toyota Safety Sense"
+        ]
+    },
+    {
+        "id": "13",
+        "parent": "Veloz Hybrid",
+        "nama": "Toyota Veloz 1.5 Q HV",
+        "tipe": "MPV",
+        "harga": 325000000,
+        "gambar": "/images/cars/veloz/veloz-q-front.jpg",
+        "galeri": [
+            "/images/cars/veloz/veloz-q-front.jpg",
+            "/images/cars/veloz/veloz-q-side.jpg",
+            "/images/cars/veloz/veloz-q-interior.jpg"
+        ],
+        "deskripsi": "Varian premium Veloz dengan fitur kenyamanan dan keselamatan lengkap.",
+        "spesifikasi": [
+            "1.5L Engine",
+            "CVT Transmission",
+            "Wireless Charger",
+            "6 Airbags"
+        ]
+    },
+    {
+        "id": "14",
+        "parent": "Innova Zenix",
+        "nama": "Toyota Innova Zenix 2.0 G CVT",
+        "tipe": "MPV",
+        "harga": 439900000,
+        "gambar": "/images/cars/innova-zenix/zenix-g-front.jpg",
+        "galeri": [
+            "/images/cars/innova-zenix/zenix-g-front.jpg",
+            "/images/cars/innova-zenix/zenix-g-side.jpg",
+            "/images/cars/innova-zenix/zenix-g-interior.jpg"
+        ],
+        "deskripsi": "MPV generasi terbaru dengan kabin luas dan kenyamanan premium.",
+        "spesifikasi": [
+            "2.0L Engine",
+            "CVT",
+            "Captain Seat",
+            "Toyota Safety Sense"
+        ]
+    },
+    {
+        "id": "15",
+        "parent": "Innova Zenix",
+        "nama": "Toyota Innova Zenix 2.0 Q Hybrid",
+        "tipe": "MPV Hybrid",
+        "harga": 477500000,
+        "gambar": "/images/cars/innova-zenix/zenix-hybrid-front.jpg",
+        "galeri": [
+            "/images/cars/innova-zenix/zenix-hybrid-front.jpg",
+            "/images/cars/innova-zenix/zenix-hybrid-side.jpg",
+            "/images/cars/innova-zenix/zenix-hybrid-interior.jpg"
+        ],
+        "deskripsi": "MPV hybrid modern dengan efisiensi bahan bakar dan fitur premium.",
+        "spesifikasi": [
+            "2.0L Hybrid",
+            "CVT",
+            "Panoramic Roof",
+            "360 Camera"
+        ]
+    },
+    {
+        "id": "16",
+        "parent": "All New Camry",
+        "nama": "Toyota Camry 2.5 V",
+        "tipe": "Sedan",
+        "harga": 857000000,
+        "gambar": "/images/cars/camry/camry-front.jpg",
+        "galeri": [
+            "/images/cars/camry/camry-front.jpg",
+            "/images/cars/camry/camry-side.jpg",
+            "/images/cars/camry/camry-interior.jpg"
+        ],
+        "deskripsi": "Sedan premium elegan dengan kenyamanan berkendara kelas atas.",
+        "spesifikasi": [
+            "2.5L Engine",
+            "Premium Interior",
+            "Toyota Safety Sense",
+            "Electric Seat"
+        ]
+    },
+    {
+        "id": "17",
+        "parent": "All New Camry",
+        "nama": "Toyota Camry 2.5 Hybrid",
+        "tipe": "Sedan Hybrid",
+        "harga": 983000000,
+        "gambar": "/images/cars/camry/camry-hybrid-front.jpg",
+        "galeri": [
+            "/images/cars/camry/camry-hybrid-front.jpg",
+            "/images/cars/camry/camry-hybrid-side.jpg",
+            "/images/cars/camry/camry-hybrid-interior.jpg"
+        ],
+        "deskripsi": "Sedan hybrid mewah dengan performa halus dan efisiensi tinggi.",
+        "spesifikasi": [
+            "2.5L Hybrid Engine",
+            "Toyota Safety Sense",
+            "Premium Audio",
+            "Adaptive Cruise Control"
+        ]
+    },
+    {
+        "id": "18",
+        "parent": "Corolla Altis",
+        "nama": "Toyota Corolla Altis 1.8 V",
+        "tipe": "Sedan",
+        "harga": 587600000,
+        "gambar": "/images/cars/corolla-altis/altis-front.jpg",
+        "galeri": [
+            "/images/cars/corolla-altis/altis-front.jpg",
+            "/images/cars/corolla-altis/altis-side.jpg",
+            "/images/cars/corolla-altis/altis-interior.jpg"
+        ],
+        "deskripsi": "Sedan elegan dengan kenyamanan tinggi dan desain modern.",
+        "spesifikasi": [
+            "1.8L Engine",
+            "CVT",
+            "Toyota Safety Sense",
+            "7 Airbags"
+        ]
+    },
+    {
+        "id": "19",
+        "parent": "Corolla Altis",
+        "nama": "Toyota Corolla Altis Hybrid",
+        "tipe": "Sedan Hybrid",
+        "harga": 641400000,
+        "gambar": "/images/cars/corolla-altis/altis-hybrid-front.jpg",
+        "galeri": [
+            "/images/cars/corolla-altis/altis-hybrid-front.jpg",
+            "/images/cars/corolla-altis/altis-hybrid-side.jpg",
+            "/images/cars/corolla-altis/altis-hybrid-interior.jpg"
+        ],
+        "deskripsi": "Sedan hybrid dengan efisiensi bahan bakar tinggi dan kabin premium.",
+        "spesifikasi": [
+            "1.8L Hybrid",
+            "Toyota Safety Sense",
+            "Electric Parking Brake",
+            "Digital MID"
+        ]
+    },
+    {
+        "id": "20",
+        "parent": "Raize",
+        "nama": "Toyota Raize G 1.2 One Tone",
+        "tipe": "Compact SUV",
+        "harga": 246900000,
+        "gambar": "/images/cars/raize/raize-g-front.jpg",
+        "galeri": [
+            "/images/cars/raize/raize-g-front.jpg",
+            "/images/cars/raize/raize-g-side.jpg",
+            "/images/cars/raize/raize-g-interior.jpg"
+        ],
+        "deskripsi": "Compact SUV stylish untuk penggunaan harian di perkotaan.",
+        "spesifikasi": [
+            "1.2L Engine",
+            "CVT",
+            "LED Headlamp",
+            "Smart Entry"
+        ]
+    },
+    {
+        "id": "21",
+        "parent": "Raize",
+        "nama": "Toyota Raize GR Sport 1.0 Turbo",
+        "tipe": "Compact SUV",
+        "harga": 320300000,
+        "gambar": "/images/cars/raize/raize-gr-front.jpg",
+        "galeri": [
+            "/images/cars/raize/raize-gr-front.jpg",
+            "/images/cars/raize/raize-gr-side.jpg",
+            "/images/cars/raize/raize-gr-interior.jpg"
+        ],
+        "deskripsi": "Compact SUV sporty dengan performa turbo dan tampilan khas GR Sport.",
+        "spesifikasi": [
+            "1.0L Turbo",
+            "CVT",
+            "GR Body Kit",
+            "Toyota Safety Sense"
+        ]
+    },
+    {
+        "id": "22",
+        "parent": "Corolla Cross",
+        "nama": "Toyota Corolla Cross 1.8 Hybrid",
+        "tipe": "SUV Hybrid",
+        "harga": 610100000,
+        "gambar": "/images/cars/corolla-cross/cross-front.jpg",
+        "galeri": [
+            "/images/cars/corolla-cross/cross-front.jpg",
+            "/images/cars/corolla-cross/cross-side.jpg",
+            "/images/cars/corolla-cross/cross-interior.jpg"
+        ],
+        "deskripsi": "SUV hybrid modern dengan desain elegan dan teknologi canggih.",
+        "spesifikasi": [
+            "1.8L Hybrid",
+            "Toyota Safety Sense",
+            "Panoramic Roof",
+            "Adaptive Cruise Control"
+        ]
+    },
+    {
+        "id": "23",
+        "parent": "All New Yaris Cross",
+        "nama": "Toyota Yaris Cross 1.5 G CVT",
+        "tipe": "Compact SUV",
+        "harga": 399000000,
+        "gambar": "/images/cars/yaris-cross/yaris-cross-front.jpg",
+        "galeri": [
+            "/images/cars/yaris-cross/yaris-cross-front.jpg",
+            "/images/cars/yaris-cross/yaris-cross-side.jpg",
+            "/images/cars/yaris-cross/yaris-cross-interior.jpg"
+        ],
+        "deskripsi": "SUV compact modern dengan fitur lengkap dan desain sporty.",
+        "spesifikasi": [
+            "1.5L Engine",
+            "CVT",
+            "Toyota Safety Sense",
+            "Wireless Charger"
+        ]
+    },
+    {
+        "id": "24",
+        "parent": "All New Yaris Cross Hybrid",
+        "nama": "Toyota Yaris Cross 1.5 Hybrid GR Sport",
+        "tipe": "Compact SUV Hybrid",
+        "harga": 465200000,
+        "gambar": "/images/cars/yaris-cross/yaris-cross-hybrid-front.jpg",
+        "galeri": [
+            "/images/cars/yaris-cross/yaris-cross-hybrid-front.jpg",
+            "/images/cars/yaris-cross/yaris-cross-hybrid-side.jpg",
+            "/images/cars/yaris-cross/yaris-cross-hybrid-interior.jpg"
+        ],
+        "deskripsi": "SUV hybrid sporty dengan efisiensi tinggi dan tampilan GR Sport.",
+        "spesifikasi": [
+            "1.5L Hybrid",
+            "Toyota Safety Sense",
+            "Panoramic View Monitor",
+            "Power Back Door"
+        ]
+    },
+    {
+        "id": "25",
+        "parent": "All New Fortuner",
+        "nama": "Toyota Fortuner 2.4 G 4x2",
+        "tipe": "SUV",
+        "harga": 586500000,
+        "gambar": "/images/cars/fortuner/fortuner-g-front.jpg",
+        "galeri": [
+            "/images/cars/fortuner/fortuner-g-front.jpg",
+            "/images/cars/fortuner/fortuner-g-side.jpg",
+            "/images/cars/fortuner/fortuner-g-interior.jpg"
+        ],
+        "deskripsi": "SUV diesel tangguh dengan kenyamanan berkendara premium.",
+        "spesifikasi": [
+            "2.4L Diesel",
+            "4x2",
+            "7 Seater",
+            "Hill Assist Control"
+        ]
+    },
+    {
+        "id": "26",
+        "parent": "All New Fortuner",
+        "nama": "Toyota Fortuner 2.8 VRZ 4x4 GR Sport",
+        "tipe": "SUV",
+        "harga": 795400000,
+        "gambar": "/images/cars/fortuner/fortuner-gr-front.jpg",
+        "galeri": [
+            "/images/cars/fortuner/fortuner-gr-front.jpg",
+            "/images/cars/fortuner/fortuner-gr-side.jpg",
+            "/images/cars/fortuner/fortuner-gr-interior.jpg"
+        ],
+        "deskripsi": "SUV flagship Fortuner dengan tampilan sporty dan kemampuan off-road tinggi.",
+        "spesifikasi": [
+            "2.8L Diesel",
+            "4x4",
+            "GR Body Kit",
+            "Toyota Safety Sense"
+        ]
+    },
+    {
+        "id": "27",
+        "parent": "All New Hilux",
+        "nama": "Toyota Hilux Single Cabin 2.4 Diesel 4x4",
+        "tipe": "Pickup",
+        "harga": 426100000,
+        "gambar": "/images/cars/hilux/hilux-single-front.jpg",
+        "galeri": [
+            "/images/cars/hilux/hilux-single-front.jpg",
+            "/images/cars/hilux/hilux-single-side.jpg",
+            "/images/cars/hilux/hilux-single-interior.jpg"
+        ],
+        "deskripsi": "Pickup tangguh untuk kebutuhan bisnis dan medan berat.",
+        "spesifikasi": [
+            "2.4L Diesel",
+            "4x4",
+            "Manual Transmission",
+            "Heavy Duty Suspension"
+        ]
+    },
+    {
+        "id": "28",
+        "parent": "All New Hilux",
+        "nama": "Toyota Hilux Double Cabin 2.4 E Diesel 4x4",
+        "tipe": "Pickup",
+        "harga": 458600000,
+        "gambar": "/images/cars/hilux/hilux-dc-front.jpg",
+        "galeri": [
+            "/images/cars/hilux/hilux-dc-front.jpg",
+            "/images/cars/hilux/hilux-dc-side.jpg",
+            "/images/cars/hilux/hilux-dc-interior.jpg"
+        ],
+        "deskripsi": "Double cabin modern dengan performa diesel dan kenyamanan optimal.",
+        "spesifikasi": [
+            "2.4L Diesel",
+            "4x4",
+            "Double Cabin",
+            "Hill Assist Control"
+        ]
+    },
+    {
+        "id": "29",
+        "parent": "All New Hilux",
+        "nama": "Toyota Hilux Double Cabin 2.4 G Diesel 4x4",
+        "tipe": "Pickup",
+        "harga": 491800000,
+        "gambar": "/images/cars/hilux/hilux-g-front.jpg",
+        "galeri": [
+            "/images/cars/hilux/hilux-g-front.jpg",
+            "/images/cars/hilux/hilux-g-side.jpg",
+            "/images/cars/hilux/hilux-g-interior.jpg"
+        ],
+        "deskripsi": "Varian Hilux premium dengan fitur kenyamanan dan keamanan lebih lengkap.",
+        "spesifikasi": [
+            "2.4L Diesel",
+            "4x4",
+            "Smart Entry",
+            "Vehicle Stability Control"
+        ]
+    },
+    {
+        "id": "30",
+        "parent": "All New Alphard",
+        "nama": "Toyota Alphard 2.5 G CVT",
+        "tipe": "Luxury MPV",
+        "harga": 1652100000,
+        "gambar": "/images/cars/alphard/alphard-front.jpg",
+        "galeri": [
+            "/images/cars/alphard/alphard-front.jpg",
+            "/images/cars/alphard/alphard-side.jpg",
+            "/images/cars/alphard/alphard-interior.jpg"
+        ],
+        "deskripsi": "Luxury MPV premium dengan kenyamanan kabin kelas VIP.",
+        "spesifikasi": [
+            "2.5L Engine",
+            "Captain Seat",
+            "Premium Audio",
+            "Toyota Safety Sense"
+        ]
+    },
+    {
+        "id": "31",
+        "parent": "All New Alphard",
+        "nama": "Toyota Alphard 2.5 Hybrid X",
+        "tipe": "Luxury MPV Hybrid",
+        "harga": 1288000000,
+        "gambar": "/images/cars/alphard/alphard-hybrid-front.jpg",
+        "galeri": [
+            "/images/cars/alphard/alphard-hybrid-front.jpg",
+            "/images/cars/alphard/alphard-hybrid-side.jpg",
+            "/images/cars/alphard/alphard-hybrid-interior.jpg"
+        ],
+        "deskripsi": "MPV hybrid mewah dengan kenyamanan dan efisiensi berkendara premium.",
+        "spesifikasi": [
+            "2.5L Hybrid",
+            "Electric Seat",
+            "Panoramic Roof",
+            "Adaptive Cruise Control"
+        ]
+    },
+    {
+        "id": "32",
+        "parent": "BZ4X",
+        "nama": "Toyota BZ4X Without Wall Charging",
+        "tipe": "Electric SUV",
+        "harga": 799400000,
+        "gambar": "/images/cars/bz4x/bz4x-front.jpg",
+        "galeri": [
+            "/images/cars/bz4x/bz4x-front.jpg",
+            "/images/cars/bz4x/bz4x-side.jpg",
+            "/images/cars/bz4x/bz4x-interior.jpg"
+        ],
+        "deskripsi": "SUV listrik modern Toyota dengan desain futuristik dan teknologi EV terbaru.",
+        "spesifikasi": [
+            "Full Electric",
+            "Fast Charging",
+            "Toyota Safety Sense",
+            "Digital Cockpit"
+        ]
+    },
+    {
+        "id": "33",
+        "parent": "BZ4X",
+        "nama": "Toyota BZ4X With Wall Charging",
+        "tipe": "Electric SUV",
+        "harga": 834700000,
+        "gambar": "/images/cars/bz4x/bz4x-front.jpg",
+        "galeri": [
+            "/images/cars/bz4x/bz4x-front.jpg",
+            "/images/cars/bz4x/bz4x-side.jpg",
+            "/images/cars/bz4x/bz4x-interior.jpg"
+        ],
+        "deskripsi": "SUV listrik Toyota lengkap dengan wall charger untuk pengisian daya di rumah.",
+        "spesifikasi": [
+            "Full Electric",
+            "Wall Charger Included",
+            "Toyota Safety Sense",
+            "Panoramic Roof"
+        ]
+    },
+    {
+        "id": "34",
+        "parent": "VOXY",
+        "nama": "Toyota Voxy 2.0",
+        "tipe": "MPV",
+        "harga": 634300000,
+        "gambar": "/images/cars/voxy/voxy-front.jpg",
+        "galeri": [
+            "/images/cars/voxy/voxy-front.jpg",
+            "/images/cars/voxy/voxy-side.jpg",
+            "/images/cars/voxy/voxy-interior.jpg"
+        ],
+        "deskripsi": "MPV premium modern dengan desain boxy elegan dan kabin luas.",
+        "spesifikasi": [
+            "2.0L Engine",
+            "Captain Seat",
+            "Power Sliding Door",
+            "Toyota Safety Sense"
+        ]
+    },
+    {
+        "id": "35",
+        "parent": "New Vios",
+        "nama": "Toyota Vios 1.5 G CVT",
+        "tipe": "Sedan",
+        "harga": 378000000,
+        "gambar": "/images/cars/vios/vios-front.jpg",
+        "galeri": [
+            "/images/cars/vios/vios-front.jpg",
+            "/images/cars/vios/vios-side.jpg",
+            "/images/cars/vios/vios-interior.jpg"
+        ],
+        "deskripsi": "Sedan modern dengan desain sporty dan efisiensi bahan bakar tinggi.",
+        "spesifikasi": [
+            "1.5L Engine",
+            "CVT",
+            "Toyota Safety Sense",
+            "Push Start Button"
+        ]
+    },
+    {
+        "id": "36",
+        "parent": "New Vios",
+        "nama": "Toyota Vios 1.5 G CVT TSS",
+        "tipe": "Sedan",
+        "harga": 391200000,
+        "gambar": "/images/cars/vios/vios-tss-front.jpg",
+        "galeri": [
+            "/images/cars/vios/vios-tss-front.jpg",
+            "/images/cars/vios/vios-tss-side.jpg",
+            "/images/cars/vios/vios-tss-interior.jpg"
+        ],
+        "deskripsi": "Sedan sporty dengan fitur Toyota Safety Sense untuk keamanan maksimal.",
+        "spesifikasi": [
+            "1.5L Engine",
+            "Toyota Safety Sense",
+            "Adaptive Cruise Control",
+            "Lane Departure Alert"
+        ]
+    },
+    {
+        "id": "37",
+        "parent": "Innova Reborn",
+        "nama": "Toyota Innova 2.4 G Diesel Automatic",
+        "tipe": "MPV",
+        "harga": 442700000,
+        "gambar": "/images/cars/innova-reborn/reborn-front.jpg",
+        "galeri": [
+            "/images/cars/innova-reborn/reborn-front.jpg",
+            "/images/cars/innova-reborn/reborn-side.jpg",
+            "/images/cars/innova-reborn/reborn-interior.jpg"
+        ],
+        "deskripsi": "MPV diesel legendaris dengan kenyamanan tinggi dan performa tangguh.",
+        "spesifikasi": [
+            "2.4L Diesel",
+            "Automatic Transmission",
+            "Captain Seat",
+            "Eco Drive Mode"
+        ]
+    },
+    {
+        "id": "38",
+        "parent": "GR 86",
+        "nama": "Toyota GR 86 2.4 L Manual",
+        "tipe": "Sports Car",
+        "harga": 1053800000,
+        "gambar": "/images/cars/gr86/gr86-front.jpg",
+        "galeri": [
+            "/images/cars/gr86/gr86-front.jpg",
+            "/images/cars/gr86/gr86-side.jpg",
+            "/images/cars/gr86/gr86-interior.jpg"
+        ],
+        "deskripsi": "Mobil sport performa tinggi dengan handling agresif khas Gazoo Racing.",
+        "spesifikasi": [
+            "2.4L Boxer Engine",
+            "Rear Wheel Drive",
+            "6-Speed Manual",
+            "Sport Suspension"
+        ]
+    },
+    {
+        "id": "39",
+        "parent": "GR 86",
+        "nama": "Toyota GR 86 2.4 L Automatic",
+        "tipe": "Sports Car",
+        "harga": 1091800000,
+        "gambar": "/images/cars/gr86/gr86-at-front.jpg",
+        "galeri": [
+            "/images/cars/gr86/gr86-at-front.jpg",
+            "/images/cars/gr86/gr86-at-side.jpg",
+            "/images/cars/gr86/gr86-at-interior.jpg"
+        ],
+        "deskripsi": "Sports car modern dengan performa tinggi dan transmisi otomatis responsif.",
+        "spesifikasi": [
+            "2.4L Boxer Engine",
+            "Automatic Transmission",
+            "Rear Wheel Drive",
+            "Track Mode"
+        ]
+    },
+    {
+        "id": "40",
+        "parent": "SUPRA",
+        "nama": "Toyota Supra 3.0 L AT",
+        "tipe": "Sports Car",
+        "harga": 2276400000,
+        "gambar": "/images/cars/supra/supra-front.jpg",
+        "galeri": [
+            "/images/cars/supra/supra-front.jpg",
+            "/images/cars/supra/supra-side.jpg",
+            "/images/cars/supra/supra-interior.jpg"
+        ],
+        "deskripsi": "Sports car premium dengan performa ekstrem dan desain aerodinamis.",
+        "spesifikasi": [
+            "3.0L Turbo Engine",
+            "Automatic Transmission",
+            "Launch Control",
+            "Adaptive Suspension"
+        ]
+    }
 ]
