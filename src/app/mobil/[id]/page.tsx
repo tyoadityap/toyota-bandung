@@ -145,9 +145,14 @@ export default function DetailMobil() {
             >
               Hubungi Sales Sekarang
             </a>
-            <button className="flex-1 bg-slate-100 text-slate-900 py-4 rounded-2xl font-bold hover:bg-slate-200 transition">
+            <a
+              href="/images/daftar%20harga.jpeg"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-1 bg-slate-100 text-slate-900 py-4 rounded-2xl font-bold hover:bg-slate-200 transition text-center flex items-center justify-center"
+            >
               Brosur PDF
-            </button>
+            </a>
           </div>
         </div>
       </div>
