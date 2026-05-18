@@ -168,11 +168,13 @@
         "nama": "Toyota Rush G Manual",
         "tipe": "SUV",
         "harga": 296400000,
-        "gambar": "/images/cars/rush/rush-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/car_variant_image/tXJBFxo7texeRLKe2YkFBi2ZEVg8XhOIp3y01sjq.png",
         "galeri": [
-            "/images/cars/rush/rush-front.jpg",
-            "/images/cars/rush/rush-side.jpg",
-            "/images/cars/rush/rush-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/car_variant_image/tXJBFxo7texeRLKe2YkFBi2ZEVg8XhOIp3y01sjq.png",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/s773jO8toWJ6eU7ytb8utI4r3tLQpW9XfzeaVnoz.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/PFSSDKtaDSoW4O6WQo9gETqntv3RRVUpa0OWKXFa.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/IRlL6VsX8mHq9EgYaEx4w1WIsxJKQnTHAUOtOhbX.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/s3sm4I8vC76DdfOBAnph58uTfAy9nRKId9jyiBMR.jpg"
         ],
         "deskripsi": "SUV keluarga dengan ground clearance tinggi dan desain tangguh.",
         "spesifikasi": [
