@@ -5,11 +5,11 @@
         "nama": "Toyota Agya G 1.2 Manual",
         "tipe": "Hatchback",
         "harga": 184600000,
-        "gambar": "/images/cars/agya/agya-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/car_variant_image/8XRcV9luQB3zMf2YedM50Kw6gObPAJzaTvHayM7S.png",
         "galeri": [
-            "/images/cars/agya/agya-front.jpg",
-            "/images/cars/agya/agya-side.jpg",
-            "/images/cars/agya/agya-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/car_variant_image/8XRcV9luQB3zMf2YedM50Kw6gObPAJzaTvHayM7S.png",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/car_variant_image/8XRcV9luQB3zMf2YedM50Kw6gObPAJzaTvHayM7S.png",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/car_variant_image/8XRcV9luQB3zMf2YedM50Kw6gObPAJzaTvHayM7S.png"
         ],
         "deskripsi": "City car modern dengan desain sporty dan konsumsi BBM irit untuk mobilitas perkotaan.",
         "spesifikasi": [
@@ -26,7 +26,7 @@
         "nama": "Toyota Agya G 1.2 CVT",
         "tipe": "Hatchback",
         "harga": 200800000,
-        "gambar": "/images/cars/agya/agya-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/car_variant_image/8pYa0Mm0c6dLpTDVD5QHRponvDtGH88Fc2vDlQax.png",
         "galeri": [
             "/images/cars/agya/agya-front.jpg",
             "/images/cars/agya/agya-side.jpg",
@@ -47,11 +47,14 @@
         "nama": "Toyota Agya Stylix CVT",
         "tipe": "Hatchback",
         "harga": 204300000,
-        "gambar": "/images/cars/agya/agya-stylix-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/car_variant_image/iOthiLYlDFh6d67imX86mXI2NYPIh3pB8uvLmfcM.png",
         "galeri": [
-            "/images/cars/agya/agya-stylix-front.jpg",
-            "/images/cars/agya/agya-stylix-side.jpg",
-            "/images/cars/agya/agya-stylix-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/swyIOu5jCQwwNJQolGApQl61vIxnoSHJTiA2JVYL.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/dFqXPPrMrUbxZv4W3onrZWUwBsCIjtvel2jDY8Hb.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/Kgg5RJtknLnvg0TArGSx3Kx0kEcx1XEvpqqxPuBA.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/pUWjUPgxU7ApjBomYtEwdGT2RqySSBfhizytM0de.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/W6cTsdfsGO1YFl0Afq5PF3sB2QZpNnqLGWipzj3m.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/HAwkZqYMF02vXbAgDCZMZWFEgti5ZI1KpB6xAKBD.jpg"
         ],
         "deskripsi": "Varian sporty Agya dengan tampilan agresif dan fitur modern khas Stylix.",
         "spesifikasi": [
@@ -68,11 +71,13 @@
         "nama": "Toyota Calya E Manual",
         "tipe": "MPV",
         "harga": 176700000,
-        "gambar": "/images/cars/calya/calya-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/car_variant_image/gepkcrWNs6mQdRWmwBN9bl9Lma7rdYNOrxojXfKG.png",
         "galeri": [
-            "/images/cars/calya/calya-front.jpg",
-            "/images/cars/calya/calya-side.jpg",
-            "/images/cars/calya/calya-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/3IXIGxLfZvBJDW2bpTJD7fnitniOE5C3LH4cEro6.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/fh5ZApXZLP7HCxKSB3yyxNxS0eXBOIYaJUdIR0XD.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/oQ9vWUxpozA2DJhDxBli12kFc5g1Vbt23IoGRg8n.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/eNMT7248MA2BUFDRnNJOHHx5vIx9z9QKKnFbpykW.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/oNVnczP3qGdE0AF22YOUamh0LBE3LZ08mgtYkib5.jpg"
         ],
         "deskripsi": "MPV keluarga ekonomis dengan kabin luas dan konsumsi bahan bakar irit.",
         "spesifikasi": [
@@ -88,11 +93,13 @@
         "nama": "Toyota Calya G Manual",
         "tipe": "MPV",
         "harga": 182600000,
-        "gambar": "/images/cars/calya/calya-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/car_variant_image/MLVyANC0w75hXTiJ1wTciZr7zxXmpYPu7xdLCfn0.png",
         "galeri": [
-            "/images/cars/calya/calya-front.jpg",
-            "/images/cars/calya/calya-side.jpg",
-            "/images/cars/calya/calya-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/3IXIGxLfZvBJDW2bpTJD7fnitniOE5C3LH4cEro6.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/fh5ZApXZLP7HCxKSB3yyxNxS0eXBOIYaJUdIR0XD.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/oQ9vWUxpozA2DJhDxBli12kFc5g1Vbt23IoGRg8n.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/eNMT7248MA2BUFDRnNJOHHx5vIx9z9QKKnFbpykW.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/oNVnczP3qGdE0AF22YOUamh0LBE3LZ08mgtYkib5.jpg"
         ],
         "deskripsi": "MPV keluarga nyaman dengan fitur lebih lengkap dan desain modern.",
         "spesifikasi": [
@@ -108,11 +115,13 @@
         "nama": "Toyota Calya G Automatic",
         "tipe": "MPV",
         "harga": 196400000,
-        "gambar": "/images/cars/calya/calya-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/car_variant_image/gepkcrWNs6mQdRWmwBN9bl9Lma7rdYNOrxojXfKG.png",
         "galeri": [
-            "/images/cars/calya/calya-front.jpg",
-            "/images/cars/calya/calya-side.jpg",
-            "/images/cars/calya/calya-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/3IXIGxLfZvBJDW2bpTJD7fnitniOE5C3LH4cEro6.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/fh5ZApXZLP7HCxKSB3yyxNxS0eXBOIYaJUdIR0XD.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/oQ9vWUxpozA2DJhDxBli12kFc5g1Vbt23IoGRg8n.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/eNMT7248MA2BUFDRnNJOHHx5vIx9z9QKKnFbpykW.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/oNVnczP3qGdE0AF22YOUamh0LBE3LZ08mgtYkib5.jpg"
         ],
         "deskripsi": "MPV keluarga dengan transmisi otomatis untuk kenyamanan berkendara di perkotaan.",
         "spesifikasi": [
@@ -128,11 +137,15 @@
         "nama": "Toyota Avanza 1.3 E CVT",
         "tipe": "MPV",
         "harga": 262200000,
-        "gambar": "/images/cars/avanza/avanza-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/car_image/tyePhWpeWF1aVZvmG7HXuKgxdF59X0yAlZFtntpF.webp",
         "galeri": [
-            "/images/cars/avanza/avanza-front.jpg",
-            "/images/cars/avanza/avanza-side.jpg",
-            "/images/cars/avanza/avanza-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/color_option_images/4Fh1G01HSdMK7GClj89IviYTXag4tDBNEyo7poAj.png",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/oe5LBmQ0sI79Xpui1SS1GTFCemlr7V5wCjExVcNs.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/rxzjmpu3wYYjyz6sPQAPtSP3Ahd92R6e8MUV8zvl.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/aBsETffBxHqBLMYBZGLUXTNhNXw30QOirFYsQ6Pc.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/1TboDgmMveir6TaRadXrD20nqEMPmAjKvoL4WkK3.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/fvNxBhU2X41LX0BbhJjHWsrcDOrOwnVoztf6OCvX.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/6PDCCfHQZQvqzXmovIilopIMIqi8AuTXivLyIMt7.jpg"
         ],
         "deskripsi": "MPV keluarga modern dengan transmisi CVT yang nyaman dan efisien.",
         "spesifikasi": [
@@ -148,11 +161,15 @@
         "nama": "Toyota Avanza 1.5 G CVT",
         "tipe": "MPV",
         "harga": 285000000,
-        "gambar": "/images/cars/avanza/avanza-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/color_option_images/SNrDx0Kzy1CMkTzOisdsHHTGxeB4bscVyj97XDLT.png",
         "galeri": [
-            "/images/cars/avanza/avanza-front.jpg",
-            "/images/cars/avanza/avanza-side.jpg",
-            "/images/cars/avanza/avanza-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/color_option_images/4Fh1G01HSdMK7GClj89IviYTXag4tDBNEyo7poAj.png",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/oe5LBmQ0sI79Xpui1SS1GTFCemlr7V5wCjExVcNs.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/rxzjmpu3wYYjyz6sPQAPtSP3Ahd92R6e8MUV8zvl.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/aBsETffBxHqBLMYBZGLUXTNhNXw30QOirFYsQ6Pc.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/1TboDgmMveir6TaRadXrD20nqEMPmAjKvoL4WkK3.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/fvNxBhU2X41LX0BbhJjHWsrcDOrOwnVoztf6OCvX.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/6PDCCfHQZQvqzXmovIilopIMIqi8AuTXivLyIMt7.jpg"
         ],
         "deskripsi": "Varian Avanza lebih bertenaga dengan fitur keselamatan dan kenyamanan modern.",
         "spesifikasi": [
@@ -168,7 +185,7 @@
         "nama": "Toyota Rush G Manual",
         "tipe": "SUV",
         "harga": 296400000,
-        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/car_variant_image/tXJBFxo7texeRLKe2YkFBi2ZEVg8XhOIp3y01sjq.png",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/car_variant_image/XBYGwBYyu66J5E4gnWOluvfekOE0m9IwfT76dktU.png",
         "galeri": [
             "https://d1g6w7sntckt92.cloudfront.net/public/images/car_variant_image/tXJBFxo7texeRLKe2YkFBi2ZEVg8XhOIp3y01sjq.png",
             "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/s773jO8toWJ6eU7ytb8utI4r3tLQpW9XfzeaVnoz.jpg",
@@ -190,11 +207,13 @@
         "nama": "Toyota Rush G Automatic",
         "tipe": "SUV",
         "harga": 307300000,
-        "gambar": "/images/cars/rush/rush-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/color_option_images/UUcsVrimsp84t95znUVsIIWpbbBiqzotF27IKD35.png",
         "galeri": [
-            "/images/cars/rush/rush-front.jpg",
-            "/images/cars/rush/rush-side.jpg",
-            "/images/cars/rush/rush-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/car_variant_image/tXJBFxo7texeRLKe2YkFBi2ZEVg8XhOIp3y01sjq.png",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/s773jO8toWJ6eU7ytb8utI4r3tLQpW9XfzeaVnoz.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/PFSSDKtaDSoW4O6WQo9gETqntv3RRVUpa0OWKXFa.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/IRlL6VsX8mHq9EgYaEx4w1WIsxJKQnTHAUOtOhbX.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/s3sm4I8vC76DdfOBAnph58uTfAy9nRKId9jyiBMR.jpg"
         ],
         "deskripsi": "SUV keluarga dengan transmisi otomatis dan kenyamanan berkendara maksimal.",
         "spesifikasi": [
@@ -210,11 +229,13 @@
         "nama": "Toyota Rush GR Sport",
         "tipe": "SUV",
         "harga": 322500000,
-        "gambar": "/images/cars/rush/rush-gr-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/color_option_images/JO6AHaXTLpLhSxBQfz8zoVdlV2yvbiBIvzMi0ooe.png",
         "galeri": [
-            "/images/cars/rush/rush-gr-front.jpg",
-            "/images/cars/rush/rush-gr-side.jpg",
-            "/images/cars/rush/rush-gr-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/car_variant_image/tXJBFxo7texeRLKe2YkFBi2ZEVg8XhOIp3y01sjq.png",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/s773jO8toWJ6eU7ytb8utI4r3tLQpW9XfzeaVnoz.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/PFSSDKtaDSoW4O6WQo9gETqntv3RRVUpa0OWKXFa.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/IRlL6VsX8mHq9EgYaEx4w1WIsxJKQnTHAUOtOhbX.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/s3sm4I8vC76DdfOBAnph58uTfAy9nRKId9jyiBMR.jpg"
         ],
         "deskripsi": "SUV sporty dengan tampilan khas Gazoo Racing dan fitur modern.",
         "spesifikasi": [
@@ -231,11 +252,15 @@
         "nama": "Toyota Veloz 1.5 V HV",
         "tipe": "MPV",
         "harga": 303000000,
-        "gambar": "/images/cars/veloz/veloz-hv-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/car_variant_image/YPtw9WfP7KvXd4Rk1nNMpydOQCdHxGfQTp5Q2WAD.png",
         "galeri": [
-            "/images/cars/veloz/veloz-hv-front.jpg",
-            "/images/cars/veloz/veloz-hv-side.jpg",
-            "/images/cars/veloz/veloz-hv-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/color_option_images/l7ceOUhkhVCRJsHcoUM4OhibFEh8Btr6hVDJ3imd.png",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/jUeV7EijxoFjAdjzZNzeEEHtfOJA36sSBI0y87h2.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/ruoYdJp55Yo3MGwO7Wmbz0WhO6iFujPkxAeBWUj7.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/gTN4oviGnWSrzB0bNJJZ5mOaBZX7B8PCsghk2WI0.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/xYlgFgh77r1cWRpVGs8eJYkqtfn6IcsL7bYhAMIf.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/6ochtI6r5xTYeRWiRoepZ0BS8wwlJyRU8QcP9ulK.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/lDJX4H4mFgtsX0wwlyk8ETGEmlN4r6SroTHkeEEP.jpg"
         ],
         "deskripsi": "MPV modern dengan tampilan premium dan efisiensi berkendara tinggi.",
         "spesifikasi": [
@@ -251,11 +276,15 @@
         "nama": "Toyota Veloz 1.5 Q HV",
         "tipe": "MPV",
         "harga": 325000000,
-        "gambar": "/images/cars/veloz/veloz-q-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/car_variant_image/Rpe4S2hm57ly3LtzLtfEVWrh0CDVo7goQrIY9V1Z.png",
         "galeri": [
-            "/images/cars/veloz/veloz-q-front.jpg",
-            "/images/cars/veloz/veloz-q-side.jpg",
-            "/images/cars/veloz/veloz-q-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/color_option_images/l7ceOUhkhVCRJsHcoUM4OhibFEh8Btr6hVDJ3imd.png",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/jUeV7EijxoFjAdjzZNzeEEHtfOJA36sSBI0y87h2.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/ruoYdJp55Yo3MGwO7Wmbz0WhO6iFujPkxAeBWUj7.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/gTN4oviGnWSrzB0bNJJZ5mOaBZX7B8PCsghk2WI0.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/xYlgFgh77r1cWRpVGs8eJYkqtfn6IcsL7bYhAMIf.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/6ochtI6r5xTYeRWiRoepZ0BS8wwlJyRU8QcP9ulK.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/lDJX4H4mFgtsX0wwlyk8ETGEmlN4r6SroTHkeEEP.jpg"
         ],
         "deskripsi": "Varian premium Veloz dengan fitur kenyamanan dan keselamatan lengkap.",
         "spesifikasi": [
@@ -271,11 +300,14 @@
         "nama": "Toyota Innova Zenix 2.0 G CVT",
         "tipe": "MPV",
         "harga": 439900000,
-        "gambar": "/images/cars/innova-zenix/zenix-g-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/color_option_images/D5fCjHJC4IL1nZwptNyfmR7B3E72is6Q7vkFCtiE.png",
         "galeri": [
-            "/images/cars/innova-zenix/zenix-g-front.jpg",
-            "/images/cars/innova-zenix/zenix-g-side.jpg",
-            "/images/cars/innova-zenix/zenix-g-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/hKjSckNNBlBFHzqtY2Eguh2DyKkigx2jyezKqCW6.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/ho8O7I7ToPesHFcNI6uurvFN3Qk8V71isuFPpVIP.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/jNGuWf7JUEQJ95eMKMvrf3yNdUFKF6ZeymNwvSKQ.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/D4fkSceo5h6rkSetVyRaqGgZypcktEARsgf5TYr4.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/8POQvdlgsKMqGuCVaa8RLqt4hm8tnX5AzBpWqmCm.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/EM629nGcfcwB7USPrgSSQg7vvz2LYWv9OCnyQrAm.jpg"
         ],
         "deskripsi": "MPV generasi terbaru dengan kabin luas dan kenyamanan premium.",
         "spesifikasi": [
@@ -291,11 +323,14 @@
         "nama": "Toyota Innova Zenix 2.0 Q Hybrid",
         "tipe": "MPV Hybrid",
         "harga": 477500000,
-        "gambar": "/images/cars/innova-zenix/zenix-hybrid-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/car_variant_image/bXx01DIAabecRr7GDP6Lh6zVPDtBL5DR3vvHPBy8.png",
         "galeri": [
-            "/images/cars/innova-zenix/zenix-hybrid-front.jpg",
-            "/images/cars/innova-zenix/zenix-hybrid-side.jpg",
-            "/images/cars/innova-zenix/zenix-hybrid-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/iVKbkwEBYDJhGKEwo3HGLCcxeZ9XYLJ39HNzsAme.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/rxsRZl3Xw5trkMUYOwAv7yjoKejVYLvnk7Y3olZT.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/8ANOTtgn0dhiLFRtSHUCy0VX0RGpoMVYTbNAPeVT.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/ZTP95kyHCm5me9mxgUlWDAsjGOgYbQupiPPfLfuh.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/FDTa9bxyOMirmsZQJeiuRh635V8mzHz7mbKWaqZJ.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/JXPuwmcfnDeaomfxzJqBFQjXhVMaPl6FksUN7DEx.jpg"
         ],
         "deskripsi": "MPV hybrid modern dengan efisiensi bahan bakar dan fitur premium.",
         "spesifikasi": [
@@ -311,11 +346,14 @@
         "nama": "Toyota Camry 2.5 V",
         "tipe": "Sedan",
         "harga": 857000000,
-        "gambar": "/images/cars/camry/camry-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/color_option_images/HLVxtgV2s8cLMU2tePXOV2ilUvVndsc5TYEBpuks.png",
         "galeri": [
-            "/images/cars/camry/camry-front.jpg",
-            "/images/cars/camry/camry-side.jpg",
-            "/images/cars/camry/camry-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/DpgNlnW7yw1OmmiAgKwiF0k5CwlqiA1rZhOV1xDH.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/XXWBuZzJQnweEdX6L39fvPBt7LgS32401K51HeM5.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/GFqR6j9WPobgccfRbjbZyGqm2vOqiz2M0mCjUVaj.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/RLvl5e4tnoWon7kBMyMQEeXkJPtjvDvFqUDTYchx.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/uwZckgGTfDlMS5w31sAzXnCghzIysIRQlurHlEd4.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/CCRhNv1c4w4mXIRnnQva7wyriX00BmezrHl0sq6S.jpg"
         ],
         "deskripsi": "Sedan premium elegan dengan kenyamanan berkendara kelas atas.",
         "spesifikasi": [
@@ -331,11 +369,14 @@
         "nama": "Toyota Camry 2.5 Hybrid",
         "tipe": "Sedan Hybrid",
         "harga": 983000000,
-        "gambar": "/images/cars/camry/camry-hybrid-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/color_option_images/HLVxtgV2s8cLMU2tePXOV2ilUvVndsc5TYEBpuks.png",
         "galeri": [
-            "/images/cars/camry/camry-hybrid-front.jpg",
-            "/images/cars/camry/camry-hybrid-side.jpg",
-            "/images/cars/camry/camry-hybrid-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/DpgNlnW7yw1OmmiAgKwiF0k5CwlqiA1rZhOV1xDH.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/XXWBuZzJQnweEdX6L39fvPBt7LgS32401K51HeM5.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/GFqR6j9WPobgccfRbjbZyGqm2vOqiz2M0mCjUVaj.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/RLvl5e4tnoWon7kBMyMQEeXkJPtjvDvFqUDTYchx.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/uwZckgGTfDlMS5w31sAzXnCghzIysIRQlurHlEd4.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/CCRhNv1c4w4mXIRnnQva7wyriX00BmezrHl0sq6S.jpg"
         ],
         "deskripsi": "Sedan hybrid mewah dengan performa halus dan efisiensi tinggi.",
         "spesifikasi": [
@@ -351,11 +392,13 @@
         "nama": "Toyota Corolla Altis 1.8 V",
         "tipe": "Sedan",
         "harga": 587600000,
-        "gambar": "/images/cars/corolla-altis/altis-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/color_option_images/02fR1hBsNMy3wsYrjNUxcBApbZ3IMIyRszFLbDTW.png",
         "galeri": [
-            "/images/cars/corolla-altis/altis-front.jpg",
-            "/images/cars/corolla-altis/altis-side.jpg",
-            "/images/cars/corolla-altis/altis-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/lUg49qMwS6zINN97eZGn129Pq1ZgKa1Et64AxlUh.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/jasSiQOR9F0cwU3daA0j1hBenrJ5Y10C0FsoE8rw.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/JzaXTsTwToX2OUM0sq05v6E4DlRnuidoNCQ3KIvb.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/LEbYCNEUTD7SJKeHs0s6YUXEfPXhv7orL6awQHRr.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/KcUDjLT9VIaYAjwcyqastyrYGblKVHRERNOn4nzW.jpg"
         ],
         "deskripsi": "Sedan elegan dengan kenyamanan tinggi dan desain modern.",
         "spesifikasi": [
@@ -371,11 +414,13 @@
         "nama": "Toyota Corolla Altis Hybrid",
         "tipe": "Sedan Hybrid",
         "harga": 641400000,
-        "gambar": "/images/cars/corolla-altis/altis-hybrid-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/Rf2SDmls6nr9POkO07IjNPydc5Hgj3IrGaNtfMno.jpg",
         "galeri": [
-            "/images/cars/corolla-altis/altis-hybrid-front.jpg",
-            "/images/cars/corolla-altis/altis-hybrid-side.jpg",
-            "/images/cars/corolla-altis/altis-hybrid-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/lUg49qMwS6zINN97eZGn129Pq1ZgKa1Et64AxlUh.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/jasSiQOR9F0cwU3daA0j1hBenrJ5Y10C0FsoE8rw.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/JzaXTsTwToX2OUM0sq05v6E4DlRnuidoNCQ3KIvb.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/LEbYCNEUTD7SJKeHs0s6YUXEfPXhv7orL6awQHRr.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/KcUDjLT9VIaYAjwcyqastyrYGblKVHRERNOn4nzW.jpg"
         ],
         "deskripsi": "Sedan hybrid dengan efisiensi bahan bakar tinggi dan kabin premium.",
         "spesifikasi": [
@@ -391,11 +436,14 @@
         "nama": "Toyota Raize G 1.2 One Tone",
         "tipe": "Compact SUV",
         "harga": 246900000,
-        "gambar": "/images/cars/raize/raize-g-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/color_option_images/0AcpNbcCdzhYFsFv8EPBKXD8FHtfkx9v3LhqgkIv.png",
         "galeri": [
-            "/images/cars/raize/raize-g-front.jpg",
-            "/images/cars/raize/raize-g-side.jpg",
-            "/images/cars/raize/raize-g-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/KqjSh3KNcwnbNZGYruDMadOsdE9LAdvdjWunVLPh.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/nWRRpcHhxeyg502h4sr7BMlzKxw7ixZwkvb5Hm5C.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/8KFPOzqLQy9kKh8Pjl232mhpVI13H5A7yAz2W65e.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/bx1zE61DgaLE0jCzTJIUOPuncQDZk9eopvfmWVte.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/UrDnGeOp56bQor0I7sPKGOSlewiClD9ZztAWGJWX.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/nDLCmoH4D3uo1jnM7easxpgp1B8Z7AVjO9sUzCE6.jpg"
         ],
         "deskripsi": "Compact SUV stylish untuk penggunaan harian di perkotaan.",
         "spesifikasi": [
@@ -411,11 +459,15 @@
         "nama": "Toyota Raize GR Sport 1.0 Turbo",
         "tipe": "Compact SUV",
         "harga": 320300000,
-        "gambar": "/images/cars/raize/raize-gr-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/color_option_images/o3LxQiwmt90pyVPhkO6OXfWFQocAxYBsxmMkMUVR.png",
         "galeri": [
-            "/images/cars/raize/raize-gr-front.jpg",
-            "/images/cars/raize/raize-gr-side.jpg",
-            "/images/cars/raize/raize-gr-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/j1vvPMFXwGWM1UeXmNf1rXRcJOYmudTYVhXciVK8.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/63vro0aUwL9tUInrAUnhZxj01RAG8ZgjH3xiDz3D.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/63vro0aUwL9tUInrAUnhZxj01RAG8ZgjH3xiDz3D.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/93QWcojSIqvnaBnVMSbFlMvIL9kT0CYAxU4c6u6f.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/JsnjMgQWXdCrGjhYvmlwr9lNH01GasA9Z2SVTvIQ.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/5Ak2UZsnD1pCR4fhwfiFLSDbS3L82vGIVGa1b9sX.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/jsxaDZayG4VdPgZg5bhFToRJDz4k8p8TY6kqTUPz.jpg"
         ],
         "deskripsi": "Compact SUV sporty dengan performa turbo dan tampilan khas GR Sport.",
         "spesifikasi": [
@@ -431,11 +483,14 @@
         "nama": "Toyota Corolla Cross 1.8 Hybrid",
         "tipe": "SUV Hybrid",
         "harga": 610100000,
-        "gambar": "/images/cars/corolla-cross/cross-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/color_option_images/aqklyhElnHULsYZiZuY3ZPVe61QkfuFk6Z2ZUAgp.png",
         "galeri": [
-            "/images/cars/corolla-cross/cross-front.jpg",
-            "/images/cars/corolla-cross/cross-side.jpg",
-            "/images/cars/corolla-cross/cross-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/MtEixI88pVcXK9w6pRkHJDgMrzcOjButOulSIXqe.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/ly9NtUutPP4aYfZSQrtp2pig1phOgOM8nnt3rbkb.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/pbPcs24uHg03nSdWtjpbZBmN8XnEbwRsPbFCO61h.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/SjqtPb7OYjZRLvzHhDZTf9T4kQctmzWndM3dVAip.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/UyrdzpcQ6lwsxy9a901jTEePE890bMB07k6Vd4Y9.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/Je5bdacMrblq65ZsEwzil9t6k0uCnr3K6TSyt4oG.jpg"
         ],
         "deskripsi": "SUV hybrid modern dengan desain elegan dan teknologi canggih.",
         "spesifikasi": [
@@ -451,11 +506,13 @@
         "nama": "Toyota Yaris Cross 1.5 G CVT",
         "tipe": "Compact SUV",
         "harga": 399000000,
-        "gambar": "/images/cars/yaris-cross/yaris-cross-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/color_option_images/Cx6bPXk2BN7L1FuVnJ3c3RFt55QzZBESI24bb6Mx.png",
         "galeri": [
-            "/images/cars/yaris-cross/yaris-cross-front.jpg",
-            "/images/cars/yaris-cross/yaris-cross-side.jpg",
-            "/images/cars/yaris-cross/yaris-cross-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/NvfgPHs1HOtVSOIthEuojnEOr5ciXysmig4QyDJ8.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/Ntzk4FxLZTQ9lU3Fleq4Npy1GMXwjMC7E2WNOepP.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/4hN9cgUKBLKLU85BULUvR6qCBftUdHHeiIX6q1qD.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/v4ZvqFa96uvfp1Sj1xEYGXQbME49LXKlKUZj7XUH.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/SzDjQZkAin55AXJjWlG3dAXThiCuKXXr0MuqKgGn.jpg"
         ],
         "deskripsi": "SUV compact modern dengan fitur lengkap dan desain sporty.",
         "spesifikasi": [
@@ -471,11 +528,14 @@
         "nama": "Toyota Yaris Cross 1.5 Hybrid GR Sport",
         "tipe": "Compact SUV Hybrid",
         "harga": 465200000,
-        "gambar": "/images/cars/yaris-cross/yaris-cross-hybrid-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/color_option_images/il9MxO2w4B9yhGFEabqY5oBF6evL1ULJZNYIf8ws.png",
         "galeri": [
-            "/images/cars/yaris-cross/yaris-cross-hybrid-front.jpg",
-            "/images/cars/yaris-cross/yaris-cross-hybrid-side.jpg",
-            "/images/cars/yaris-cross/yaris-cross-hybrid-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/DekAUXcm2Tzgf6GGvRKFcZDN1cdhAvcbvQhN046P.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/JB8CzgKN174rjjxdh473eJH9HHhZ4eSVF4V3vtTF.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/3cqPvk8qOCVjGyc9DMQHHlGTSQgtNPvETjvOS1Gz.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/XkfBtP7LcRW8SsmId80fcvsVCOylSyHgsYdBKUhD.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/GFoZSJQtnlhHL67A2YWfiXw4FjGvkyrzFjxJBLBX.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/MavfvkZJNao3adXNr9Y0XYgFO0xp5Sc7wnA9XjLx.jpg"
         ],
         "deskripsi": "SUV hybrid sporty dengan efisiensi tinggi dan tampilan GR Sport.",
         "spesifikasi": [
@@ -491,11 +551,14 @@
         "nama": "Toyota Fortuner 2.4 G 4x2",
         "tipe": "SUV",
         "harga": 586500000,
-        "gambar": "/images/cars/fortuner/fortuner-g-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/color_option_images/BJlUJ3EscfzT5RFjVXvwOLLV3sVxU3Tghj7xOjkR.png",
         "galeri": [
-            "/images/cars/fortuner/fortuner-g-front.jpg",
-            "/images/cars/fortuner/fortuner-g-side.jpg",
-            "/images/cars/fortuner/fortuner-g-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/z0SvGLQ4AYUB9jTwT6B9tVtSNoBj5sL6THlJ6Xns.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/29JLJkWzKbzRGK3ShQgOLqdG1hnPnk2bssjBVhZc.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/7VBztf0e5bPxnjlLXKIwoE2OLk8mbOtXRy2UZibz.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/GldmLl0NDLzReIKHmxIbogUJN5SeGkypDqVTvD30.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/XCE5CHZCm4fuZ0yhz6y191dCO5r9jg48DpyGhW5Q.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/OYnHBsV5ovhdhKlwa1Ex0deomapaVuW3ozFHR9AZ.jpg"
         ],
         "deskripsi": "SUV diesel tangguh dengan kenyamanan berkendara premium.",
         "spesifikasi": [
@@ -511,11 +574,14 @@
         "nama": "Toyota Fortuner 2.8 VRZ 4x4 GR Sport",
         "tipe": "SUV",
         "harga": 795400000,
-        "gambar": "/images/cars/fortuner/fortuner-gr-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/color_option_images/tUb1Fh0ef53PYiQdcrcSZxA4UfjJng5mzvIc0vLc.png",
         "galeri": [
-            "/images/cars/fortuner/fortuner-gr-front.jpg",
-            "/images/cars/fortuner/fortuner-gr-side.jpg",
-            "/images/cars/fortuner/fortuner-gr-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/tPsiJEwUIiALxoolIBjVzvihVmhxVENiYhMJCScO.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/wUvOgS8ipp4gZNPdcocqR4GtCLsVAjiIn5Kaqpe6.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/FTnr0WhHCdmuP9B2MyARFZrWbXi9NfTtzelH5DP5.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/c190x8U3G9iN68Pdl70grxqZCeaTt2aStNAoNWig.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/hCroygxxdiVI4UfggyfHO29cNcCZALigg0XbkS3V.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/bkZh71qupG7Z2B5h5JrevNX12jhPdL6JJ1J8iJM4.jpg"
         ],
         "deskripsi": "SUV flagship Fortuner dengan tampilan sporty dan kemampuan off-road tinggi.",
         "spesifikasi": [
@@ -531,11 +597,13 @@
         "nama": "Toyota Hilux Single Cabin 2.4 Diesel 4x4",
         "tipe": "Pickup",
         "harga": 426100000,
-        "gambar": "/images/cars/hilux/hilux-single-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/color_option_images/w4sofoJeTIn0YNnwWnPfcgKS7GuKgMCV5Bf1kYGv.png",
         "galeri": [
-            "/images/cars/hilux/hilux-single-front.jpg",
-            "/images/cars/hilux/hilux-single-side.jpg",
-            "/images/cars/hilux/hilux-single-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/wQqv9rezWE86NF55yDUJCYJm2UMYoQYqFG8gWKix.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/d6IwGxnepqG2z7yqlYPJDsmP6rQkY7IOqAg36OE0.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/mH16AWHdretezCfo8prt0bJ4ehhS4oAeF8Cx6dZ2.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/ze1gLdeCH2Y7PtRbqKqmC7KMhrpD1LhWVH8CeFDZ.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/hhaz4AIykzuRwZOOuCnmexlrnBh9CAbYd3c55Cfp.jpg"
         ],
         "deskripsi": "Pickup tangguh untuk kebutuhan bisnis dan medan berat.",
         "spesifikasi": [
@@ -551,11 +619,14 @@
         "nama": "Toyota Hilux Double Cabin 2.4 E Diesel 4x4",
         "tipe": "Pickup",
         "harga": 458600000,
-        "gambar": "/images/cars/hilux/hilux-dc-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/color_option_images/WR3hvpJ8i9mR0vBIZCUMG0nKMmOlrHJQ8qbRD5SA.png",
         "galeri": [
-            "/images/cars/hilux/hilux-dc-front.jpg",
-            "/images/cars/hilux/hilux-dc-side.jpg",
-            "/images/cars/hilux/hilux-dc-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/fVuHpTyJPKyLGljr5Zkh2OqOsqRghLKa0fo249D4.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/qDAdpMledFavNXthr30xXabadQXR6jBqQmdL73N1.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/jOzgj5VGcoBBjbqiDwaoCajU7Oxsfdb7ltqD7nyN.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/aD8Cxb4Xpxia3PqNNkf5BR5T8l1NdAva02Ol7htW.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/gfLzftefOXhTHoMdo1gxyb4gs2wrDQx1dUcwPENp.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/IxrX9u6VligPX7qoFZRs9ugUSrGqP78eK6GFDvJQ.jpg"
         ],
         "deskripsi": "Double cabin modern dengan performa diesel dan kenyamanan optimal.",
         "spesifikasi": [
@@ -571,11 +642,14 @@
         "nama": "Toyota Hilux Double Cabin 2.4 G Diesel 4x4",
         "tipe": "Pickup",
         "harga": 491800000,
-        "gambar": "/images/cars/hilux/hilux-g-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/color_option_images/XzTlYltVGrYdfyM6YCeraZvyTUvUaIR0QN4XNy8r.png",
         "galeri": [
-            "/images/cars/hilux/hilux-g-front.jpg",
-            "/images/cars/hilux/hilux-g-side.jpg",
-            "/images/cars/hilux/hilux-g-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/fVuHpTyJPKyLGljr5Zkh2OqOsqRghLKa0fo249D4.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/qDAdpMledFavNXthr30xXabadQXR6jBqQmdL73N1.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/jOzgj5VGcoBBjbqiDwaoCajU7Oxsfdb7ltqD7nyN.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/aD8Cxb4Xpxia3PqNNkf5BR5T8l1NdAva02Ol7htW.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/gfLzftefOXhTHoMdo1gxyb4gs2wrDQx1dUcwPENp.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/IxrX9u6VligPX7qoFZRs9ugUSrGqP78eK6GFDvJQ.jpg"
         ],
         "deskripsi": "Varian Hilux premium dengan fitur kenyamanan dan keamanan lebih lengkap.",
         "spesifikasi": [
@@ -591,11 +665,14 @@
         "nama": "Toyota Alphard 2.5 G CVT",
         "tipe": "Luxury MPV",
         "harga": 1652100000,
-        "gambar": "/images/cars/alphard/alphard-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/color_option_images/RK01C3wXpkKkrOGPHJpS6Gl6bmIDpH7R5TwJm1UY.png",
         "galeri": [
-            "/images/cars/alphard/alphard-front.jpg",
-            "/images/cars/alphard/alphard-side.jpg",
-            "/images/cars/alphard/alphard-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/RHFgLb96Etfvr1LfiF8qsj9B6eUhIGX4WSc8HoVe.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/8JeKdMXd9M0NpphfwXKEZRIoJxYbbLlGunkb1a9C.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/NwZvkSLK7fZRjRJ7pQtf03n2swCXh8B4uNG8TGzA.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/tPKdXe7phEeLu4iYNx7vzRejfD6UMqhJ3ODolZW6.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/JBtYnF0PeN5JHzRGOiewdmMQCib8SfTNLbZ39SXQ.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/6TT0nfJH4FmICOu4qK4Z6L8ziKFhOT7NbxbJKsIg.jpg"
         ],
         "deskripsi": "Luxury MPV premium dengan kenyamanan kabin kelas VIP.",
         "spesifikasi": [
@@ -611,11 +688,14 @@
         "nama": "Toyota Alphard 2.5 Hybrid X",
         "tipe": "Luxury MPV Hybrid",
         "harga": 1288000000,
-        "gambar": "/images/cars/alphard/alphard-hybrid-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/color_option_images/JzZMSFnqimZzMJJgkBGJZTIsdQJYC9mw3cV6R3lW.png",
         "galeri": [
-            "/images/cars/alphard/alphard-hybrid-front.jpg",
-            "/images/cars/alphard/alphard-hybrid-side.jpg",
-            "/images/cars/alphard/alphard-hybrid-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/dDXpWMwjqWZRWsVy8yQOIf3aVfrm0ZCD4ap4H11E.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/Ylt7j0lFrIdfS5rlKQ5O00BbAMz72YF7ObitfRxx.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/KtyU9WMqSLnQ3X9FPh2oASE7bx35zJda1lY8Vu1E.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/RUqN6ErkIRmTciIFsH1fIqqxBQ3Jn73K6bUhlTHX.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/dxc1QiyReEcJ6vgMVMuoXrAYw80z9nlwIUtkmKWv.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/Bz52LM8ILL5gmMf6L4Tikd4mZfK4tzXa17mrzLAX.jpg"
         ],
         "deskripsi": "MPV hybrid mewah dengan kenyamanan dan efisiensi berkendara premium.",
         "spesifikasi": [
@@ -631,11 +711,16 @@
         "nama": "Toyota BZ4X Without Wall Charging",
         "tipe": "Electric SUV",
         "harga": 799400000,
-        "gambar": "/images/cars/bz4x/bz4x-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/color_option_images/RNChK3eTZMCh0u21oIPXJ6c32VyiNzUc5jvAVr8M.png",
         "galeri": [
-            "/images/cars/bz4x/bz4x-front.jpg",
-            "/images/cars/bz4x/bz4x-side.jpg",
-            "/images/cars/bz4x/bz4x-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/5oYDz38gX67bXuqGmmhqIcFeV3MFvPxKo6quIagQ.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/cmP22Ht2PZMUAgaWsFoZ0D63i2ZroaWNk7Nz5LwP.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/fXo8d3kUuwN2z26HLoRqc0awWfQLj5hnKudvjyYk.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/mZlnbV9dPV65J6RAdcW4dYyswcx27iaNyjdPZE8N.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/jRIrM0Nn8FfzwDN3oCBmd4DDScLKM8vYdU8GRqB2.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/RxJMcul0Ym38LMNRB4uwZ5F6ut0rUFY9cx5Tv6dp.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/qzKT99i0v50t2cwAqWEyE3Xhs5LPGOiX6fS8bnbd.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/EJHoSAK30yesO1R5iaoYlOxo04wuzFLGZPSQxMmt.jpg"
         ],
         "deskripsi": "SUV listrik modern Toyota dengan desain futuristik dan teknologi EV terbaru.",
         "spesifikasi": [
@@ -651,11 +736,16 @@
         "nama": "Toyota BZ4X With Wall Charging",
         "tipe": "Electric SUV",
         "harga": 834700000,
-        "gambar": "/images/cars/bz4x/bz4x-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/color_option_images/lwkQcUs7ZGRlLVQOlDphx8GLtfCVStKG969MtvmT.png",
         "galeri": [
-            "/images/cars/bz4x/bz4x-front.jpg",
-            "/images/cars/bz4x/bz4x-side.jpg",
-            "/images/cars/bz4x/bz4x-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/5oYDz38gX67bXuqGmmhqIcFeV3MFvPxKo6quIagQ.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/cmP22Ht2PZMUAgaWsFoZ0D63i2ZroaWNk7Nz5LwP.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/fXo8d3kUuwN2z26HLoRqc0awWfQLj5hnKudvjyYk.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/mZlnbV9dPV65J6RAdcW4dYyswcx27iaNyjdPZE8N.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/jRIrM0Nn8FfzwDN3oCBmd4DDScLKM8vYdU8GRqB2.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/RxJMcul0Ym38LMNRB4uwZ5F6ut0rUFY9cx5Tv6dp.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/qzKT99i0v50t2cwAqWEyE3Xhs5LPGOiX6fS8bnbd.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/EJHoSAK30yesO1R5iaoYlOxo04wuzFLGZPSQxMmt.jpg"
         ],
         "deskripsi": "SUV listrik Toyota lengkap dengan wall charger untuk pengisian daya di rumah.",
         "spesifikasi": [
@@ -671,11 +761,14 @@
         "nama": "Toyota Voxy 2.0",
         "tipe": "MPV",
         "harga": 634300000,
-        "gambar": "/images/cars/voxy/voxy-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/color_option_images/H5bJ1GegnzgJejTPc5Q9yADgVyhD2ljoWN8vbvQw.png",
         "galeri": [
-            "/images/cars/voxy/voxy-front.jpg",
-            "/images/cars/voxy/voxy-side.jpg",
-            "/images/cars/voxy/voxy-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/umjYFJctmUSyg7EvByx4LPzWDGrLUsL3F2aMM4kn.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/R7mEY4uojuQ1yJ6qCqeMMIPmwgEUAJkMqQBiDgbC.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/UBCUTW0zbaDRUjZFWK912BJqWAQkALQpQTXVSPgl.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/ztvgJFPz51G59iuAW2RLL9iWq8aRqzyQwqnyPuXy.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/whxa0oThRRXf6UyR0YiT2CC83XCuLhjvdKonqfK0.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/NEdbM7MSfYZeOvB4RMuyHfceQ9WSfVk83jSW3baC.jpg"
         ],
         "deskripsi": "MPV premium modern dengan desain boxy elegan dan kabin luas.",
         "spesifikasi": [
@@ -691,11 +784,14 @@
         "nama": "Toyota Vios 1.5 G CVT",
         "tipe": "Sedan",
         "harga": 378000000,
-        "gambar": "/images/cars/vios/vios-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/color_option_images/XUXG2YMLwemrOxFAnKzKzcNHHrHFbgHZOZ8TL8MC.png",
         "galeri": [
-            "/images/cars/vios/vios-front.jpg",
-            "/images/cars/vios/vios-side.jpg",
-            "/images/cars/vios/vios-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/HC1tbIwyInD7PbDmRmGn1aQPQLGJ1zjtmXVdoAeo.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/0XKxixB5EHV1VffUt2NlKSA2AxVJaVUXFS1wnZLt.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/OU3KTGWsnWYKuxPSRqPDBKG1q07QqJXtQdm89MXG.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/aDjGAoc4ZjY5X55QhUXMdaxK1oZkG6O0Ttl0sr9F.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/Ow1HLmNNPNpFdetYRyaWwXQfsuvN8kqpsmm90VFf.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/fg6g9gO6n3JZUler5qp9E6gpLhqjN6wdudAgnbKj.jpg"
         ],
         "deskripsi": "Sedan modern dengan desain sporty dan efisiensi bahan bakar tinggi.",
         "spesifikasi": [
@@ -711,11 +807,14 @@
         "nama": "Toyota Vios 1.5 G CVT TSS",
         "tipe": "Sedan",
         "harga": 391200000,
-        "gambar": "/images/cars/vios/vios-tss-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/color_option_images/yDULZUWMyP6Bf1vuRzSEMF8QtqLB14cf35AEoo61.png",
         "galeri": [
-            "/images/cars/vios/vios-tss-front.jpg",
-            "/images/cars/vios/vios-tss-side.jpg",
-            "/images/cars/vios/vios-tss-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/HC1tbIwyInD7PbDmRmGn1aQPQLGJ1zjtmXVdoAeo.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/0XKxixB5EHV1VffUt2NlKSA2AxVJaVUXFS1wnZLt.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/OU3KTGWsnWYKuxPSRqPDBKG1q07QqJXtQdm89MXG.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/aDjGAoc4ZjY5X55QhUXMdaxK1oZkG6O0Ttl0sr9F.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/Ow1HLmNNPNpFdetYRyaWwXQfsuvN8kqpsmm90VFf.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/fg6g9gO6n3JZUler5qp9E6gpLhqjN6wdudAgnbKj.jpg"
         ],
         "deskripsi": "Sedan sporty dengan fitur Toyota Safety Sense untuk keamanan maksimal.",
         "spesifikasi": [
@@ -731,11 +830,14 @@
         "nama": "Toyota Innova 2.4 G Diesel Automatic",
         "tipe": "MPV",
         "harga": 442700000,
-        "gambar": "/images/cars/innova-reborn/reborn-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/color_option_images/MU3xDb9aYF5Yi1D43LIujEmDgAhJQBbtLG4HkEGJ.png",
         "galeri": [
-            "/images/cars/innova-reborn/reborn-front.jpg",
-            "/images/cars/innova-reborn/reborn-side.jpg",
-            "/images/cars/innova-reborn/reborn-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/U9jFAOe6SPKOE4GtY1F2T2slcfJMevpYS1zyNDpl.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/wU4ndb4jBK1iRBqAALPH5jXQUv0EzoVZFgLqZLUz.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/14ZKhLxrvWXndlhbtfMqUC61qUGnaVQ8xGjRRG2y.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/ApFuQZ2jWfcC96blFeg69wWXxVgGyCnuRloXYsHN.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/VHFlkSsSlpZ7OevZZuu8RJpuyoGUH1a45knnRu6z.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/rYTJcInS9pM8mloyQSST8VzJuKFFEYk3L91faK2H.jpg"
         ],
         "deskripsi": "MPV diesel legendaris dengan kenyamanan tinggi dan performa tangguh.",
         "spesifikasi": [
@@ -751,11 +853,14 @@
         "nama": "Toyota GR 86 2.4 L Manual",
         "tipe": "Sports Car",
         "harga": 1053800000,
-        "gambar": "/images/cars/gr86/gr86-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/color_option_images/nkNVtkNJNfs7noK1oZ6VJBOgAeuXPhZCT9e0jMbo.png",
         "galeri": [
-            "/images/cars/gr86/gr86-front.jpg",
-            "/images/cars/gr86/gr86-side.jpg",
-            "/images/cars/gr86/gr86-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/hxrrFuHEbVqqEv1AagHyJwWohplnnrb4G1rPSJH3.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/dV5eL4BLwP18VlqzxiKiuU90BFCRa8HIOwwsTtvz.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/wg7K4XNwwdOiXaqTs7LpbQhYZNq1V8Y9c7KdSnDS.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/BCDd5JAlFQwV0GLgzdGh071bcebVAuiKpLElLUXQ.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/wlNILbgyyJPlXF151anYNQzVaFwsIJAUrfgt3Ric.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/dIFH8R5881lsP8bV61mBXT3SZxoHqlte1mtCSezc.jpg"
         ],
         "deskripsi": "Mobil sport performa tinggi dengan handling agresif khas Gazoo Racing.",
         "spesifikasi": [
@@ -771,11 +876,14 @@
         "nama": "Toyota GR 86 2.4 L Automatic",
         "tipe": "Sports Car",
         "harga": 1091800000,
-        "gambar": "/images/cars/gr86/gr86-at-front.jpg",
+        "gambar": "https://d1g6w7sntckt92.cloudfront.net/public/images/color_option_images/6zHC4Ds8tI1RWQ6lOizCWNKde17Nb1wYpA4AYabc.png",
         "galeri": [
-            "/images/cars/gr86/gr86-at-front.jpg",
-            "/images/cars/gr86/gr86-at-side.jpg",
-            "/images/cars/gr86/gr86-at-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/hxrrFuHEbVqqEv1AagHyJwWohplnnrb4G1rPSJH3.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/dV5eL4BLwP18VlqzxiKiuU90BFCRa8HIOwwsTtvz.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/wg7K4XNwwdOiXaqTs7LpbQhYZNq1V8Y9c7KdSnDS.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/BCDd5JAlFQwV0GLgzdGh071bcebVAuiKpLElLUXQ.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/wlNILbgyyJPlXF151anYNQzVaFwsIJAUrfgt3Ric.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/dIFH8R5881lsP8bV61mBXT3SZxoHqlte1mtCSezc.jpg"
         ],
         "deskripsi": "Sports car modern dengan performa tinggi dan transmisi otomatis responsif.",
         "spesifikasi": [
@@ -791,11 +899,11 @@
         "nama": "Toyota Supra 3.0 L AT",
         "tipe": "Sports Car",
         "harga": 2276400000,
-        "gambar": "/images/cars/supra/supra-front.jpg",
+        "gambar": "https://newtpm.s3-ap-southeast-1.amazonaws.com/vehicles/colors/img_32_1194_prominence_red.png",
         "galeri": [
-            "/images/cars/supra/supra-front.jpg",
-            "/images/cars/supra/supra-side.jpg",
-            "/images/cars/supra/supra-interior.jpg"
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/BgxcAHmhK2NzyGBQew3mMLWAm5u3NcIHMLLJEUnI.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/YtrMX9zyOEOaXI5do1AmZoQ3bSeuQ1Ojn4IQkig7.jpg",
+            "https://d1g6w7sntckt92.cloudfront.net/public/images/feature_image/IVbDEjMadibQ5FowBZXl2GkhXDcD287Oyq078rch.jpg"
         ],
         "deskripsi": "Sports car premium dengan performa ekstrem dan desain aerodinamis.",
         "spesifikasi": [
